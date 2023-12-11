@@ -1,0 +1,66 @@
+/* Base Style CSS Start */
+
+/* Fonts */
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,100;9..40,200;9..40,300;9..40,400;9..40,500;9..40,600;9..40,700;9..40,800;9..40,900&family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-family: "DM Sans", sans-serif;
+  scroll-behavior: smooth;
+}
+
+/* Colors */
+::root {
+  /* Primary */
+
+  --primary-1: #009dcf;
+  --primary-2: #7c33f4;
+  --primary-3: #e00000;
+  --primary-4: #00af12;
+
+  /* Secondary */
+
+  --secondary-1: #4bc9f0;
+  --secondary-2: #e4d7cf;
+  --secondary-3: #ffd166;
+  --secondary-4: #cdb4db;
+
+  /* Neutrals */
+
+  --neutrals-1: #141416;
+  --neutrals-2: #23262f;
+  --neutrals-3: #353945;
+  --neutrals-4: #777e90;
+  --neutrals-5: #b1b5c3;
+  --neutrals-6: #e6e8ec;
+  --neutrals-7: #f4f5f6;
+  --neutrals-8: #fcfcfd;
+  --white: #ffffff;
+}
+
+ol,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+img {
+  max-width: 100%;
+}
+
+/* Base Style CSS End */
