@@ -188,7 +188,7 @@ img {
   }
 
   .main-menu ul li {
-    padding: 15px 0;
+    padding: 15px;
   }
 
   .main-menu ul li a {
@@ -430,6 +430,10 @@ img {
 
 .family-sedans-wrapper {
   background: var(--neutrals-7, #f4f5f6);
+}
+
+.owl-stage {
+  padding-left: 0 !important;
 }
 
 .owl-nav,
