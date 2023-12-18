@@ -16,8 +16,8 @@ body {
 }
 
 /* Colors */
-::root {
-  /* Primary */
+:root {
+  /* primary */
 
   --primary-1: #009dcf;
   --primary-2: #7c33f4;
@@ -31,7 +31,7 @@ body {
   --secondary-3: #ffd166;
   --secondary-4: #cdb4db;
 
-  /* Neutrals */
+  /* neutrals */
 
   --neutrals-1: #141416;
   --neutrals-2: #23262f;
@@ -63,4 +63,609 @@ img {
   max-width: 100%;
 }
 
+.py-80 {
+  padding: 80px 0;
+}
+
+.body-1 {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: -0.24px;
+  color: var(--neutrals-2, #23262f);
+}
+
+.body-2 {
+  color: var(--neutrals-2, #23262f);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.headline-2 {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 56px;
+  letter-spacing: -0.96px;
+  color: var(--neutrals-white, #fff);
+}
+
+.headline-4 {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: -0.32px;
+  color: var(--neutrals-2, #23262f);
+  margin-bottom: 0;
+}
+
+.fill-btn a {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 16px;
+  color: var(--neutrals-white, #fff);
+  background: var(--primary-1, #009dcf);
+  padding: 15px 24px;
+  border-radius: 90px;
+}
+
+.outline-btn a {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 16px;
+  color: var(--primary-1, #009dcf);
+  padding: 15px 24px;
+}
+
+.show-all-btn a {
+  display: block;
+  text-align: center;
+  font-size: 16px;
+  color: var(--primary-1, #009dcf);
+  padding-top: 20px;
+}
+
 /* Base Style CSS End */
+
+/* Header Part CSS Start */
+
+/* Navigation Section CSS Start */
+
+.navigation-wrapper {
+  padding: 20px 0;
+  border-bottom: 1px solid var(--neutrals-6, #e6e8ec);
+}
+
+.logo a {
+  font-family: "Poppins", sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  letter-spacing: -0.24px;
+  color: var(--primary-1, #009dcf);
+}
+
+.main-menu ul li a {
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--neutrals-3, #353945);
+  padding: 0 15px;
+}
+
+#bars-icon,
+#cross-icon {
+  display: none;
+}
+
+/* Responsive Navabar CSS */
+
+@media (max-width: 992px) {
+  .navigation-wrapper {
+    background: var(--neutrals-8, #fcfcfd);
+  }
+
+  #bars-icon {
+    display: block;
+  }
+
+  .main-menu {
+    position: absolute;
+    top: 71px;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: var(--neutrals-8, #fcfcfd);
+    transition: left 0.3s ease-in-out;
+  }
+
+  .main-menu.active {
+    left: 0;
+  }
+
+  .main-menu ul {
+    position: absolute;
+    top: 20%;
+    display: block !important;
+  }
+
+  .main-menu ul li {
+    padding: 15px 0;
+  }
+
+  .main-menu ul li a {
+    font-size: 24px;
+    font-weight: 700;
+  }
+
+  .contact-btn {
+    position: absolute;
+    left: 50%;
+    bottom: 20%;
+    transform: translateX(-50%);
+  }
+
+  .contact-btn a {
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--neutrals-2, #23262f);
+    padding: 16px 24px;
+    border: 2px solid var(--neutrals-6, #e6e8ec);
+    border-radius: 100px;
+  }
+}
+
+/* Navigation Section CSS End */
+
+/* Hero Section CSS Start */
+
+.hero-content h6 {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: var(--neutrals-4, #777e90);
+}
+
+.hero-content h1 {
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 68px;
+  letter-spacing: -1.28px;
+  color: var(--neutrals-2, #23262f);
+}
+
+.hero-content p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: var(--neutrals-4, #777e90);
+}
+
+.hero-img img {
+  width: 100%;
+}
+
+.hero-buttons {
+  padding-top: 35px;
+}
+
+/* Hero Section CSS End */
+
+/* Header Part CSS End */
+
+/* Main Part CSS Start */
+
+/* Partners Section CSS Start */
+
+.partners-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.partners-title h6 {
+  font-size: 16px;
+  font-weight: 500;
+  text-align: center;
+  line-height: 24px;
+  color: var(--neutrals-4, #777e90);
+  padding: 10px 0;
+}
+
+/* Partners Section CSS End */
+
+/* Product Section CSS Start */
+
+.product-top {
+  padding-bottom: 15px;
+}
+
+.product-top a {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16px;
+  color: var(--primary-1, #009dcf);
+}
+
+.product-card-top {
+  position: absolute;
+  top: 8px;
+  left: 8px;
+}
+
+.product-card {
+  padding-top: 15px;
+}
+
+.product-tag span {
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 8px;
+  color: var(--neutrals-white, #fff);
+  background: var(--primary-2, #7c33f4);
+  border-radius: 4px;
+}
+
+.product-quantity span {
+  width: 36px;
+  height: 36px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  font-weight: 500;
+  margin-right: 16px;
+  color: var(--neutrals-white, #fff);
+  background: var(--primary-1, #009dcf);
+  border-radius: 40px;
+}
+
+.product-img,
+.product-img img {
+  max-width: 100%;
+  width: 100%;
+  max-height: 270px;
+  height: 100%;
+  border-radius: 8px;
+}
+
+.product-content {
+  padding-top: 20px;
+}
+
+.product-name h6 {
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--neutrals-4, #777e90);
+}
+
+.product-name h4 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 30px;
+  color: var(--neutrals-2, #23262f);
+}
+
+.product-category span {
+  font-size: 14px;
+  font-weight: 700;
+  padding: 6px 12px;
+  color: var(--neutrals-white, #fff);
+  background: var(--neutrals-5, #b1b5c3);
+  border-radius: 100px;
+}
+
+.product-price p {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 16px;
+  color: var(--primary-4, #00af12);
+}
+
+.add-collection-btn a {
+  display: block;
+  font-size: 14px;
+  font-weight: 700;
+  text-align: center;
+  padding: 12px;
+  color: var(--primary-1, #009dcf);
+  background: transparent;
+  border: 1px solid var(--primary-1, #009dcf);
+  border-radius: 90px;
+}
+
+/* Product Section CSS End */
+
+/* Work Section CSS Start */
+
+.work-wrapper {
+  background: var(--primary-1);
+}
+
+.work-top {
+  max-width: 460px;
+}
+
+.work-top p {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: -0.24px;
+  color: var(--neutrals-white, #fff);
+  opacity: 0.8;
+  padding-top: 5px;
+  margin-bottom: 0;
+}
+
+.work-card {
+  padding-top: 50px;
+}
+
+.work-card h3 {
+  color: var(--white);
+}
+
+.work-card hr {
+  margin: 24px 0;
+  border-top: 2px solid var(--neutrals-white, #fff);
+  opacity: 0.2 !important;
+}
+
+.work-card h6 {
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--neutrals-white, #fff);
+  margin-bottom: 12px;
+}
+
+.work-card p {
+  font-size: 14px;
+  line-height: 24px;
+  color: var(--neutrals-white, #fff);
+  margin-bottom: 0;
+}
+
+/* Work Section CSS End */
+
+/* Family Sedans Section CSS Start */
+
+.family-sedans-wrapper {
+  background: var(--neutrals-7, #f4f5f6);
+}
+
+.owl-nav,
+.owl-dots {
+  display: none;
+}
+
+/* Family Sedans Section CSS End */
+
+/* Cars Info Section CSS Start */
+
+.cars-info-wrapper {
+  background: var(--neutrals-8, #fcfcfd);
+}
+
+.cars-body-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  padding-top: 10px;
+}
+
+.cars-body-card h6 {
+  padding-top: 10px;
+  margin: 0;
+}
+
+/* Cars Manufacture */
+
+.cars-manufacturer {
+  padding-top: 60px;
+}
+
+.cars-manufacturer-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cars-mfg-icon,
+.cars-mfg-icon img {
+  max-width: 32px;
+  height: 32px;
+  margin-right: 12px;
+}
+
+.cars-mfg-title h6 {
+  margin-bottom: 0;
+}
+
+/* Popular Models */
+
+.popular-models {
+  padding-top: 60px;
+}
+
+.polpular-models-container {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 10px;
+}
+
+.popular-models-column h6 {
+  padding-top: 6px;
+}
+
+/* Cars Info Section CSS End */
+
+/* FAQ Section CSS Start */
+
+.faq-wrapper {
+  background: var(--neutrals-7, #f4f5f6);
+}
+
+.faq-title h2 {
+  color: var(--neutrals-2, #23262f);
+}
+
+.accordion {
+  max-width: 530px;
+  margin: auto;
+  padding-top: 45px;
+}
+
+.accordion-item {
+  border: 1px solid #e6e8ec;
+}
+
+.accordion-item,
+.accordion-button {
+  background-color: transparent !important;
+}
+
+.accordion-button,
+.accordion-button:not(.collapsed) {
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--neutrals-2, #23262f);
+}
+
+.accordion-button span {
+  display: block;
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--neutrals-4, #777e90);
+  padding-right: 25px;
+}
+
+.accordion-button:focus {
+  border: none !important;
+  box-shadow: none;
+}
+
+.accordion-button:not(.collapsed) span {
+  color: var(--primary-1, #009dcf);
+}
+
+.accordion-button {
+  padding: 24px 0;
+}
+
+.accordion-body {
+  padding: 0 0 24px;
+}
+
+.accordion-body p {
+  font-size: 14px;
+  font-weight: 400;
+  color: var(--neutrals-4, #777e90);
+  margin-bottom: 0;
+}
+
+.accordion-button::after {
+  background-image: url(../images/chevron-down.svg);
+}
+
+.accordion-button:not(.collapsed)::after {
+  background-image: url(../images/chevron-down.svg);
+}
+
+/* FAQ Section CSS End */
+
+/* Main Part CSS End */
+
+/* Footer Part CSS Start */
+
+.footer-wrapper {
+  background: var(--neutrals-2, #23262f);
+  padding: 80px 0 32px;
+}
+
+.footer-about > a {
+  font-family: "Poppins", sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  letter-spacing: -0.48px;
+  color: var(--primary-1, #009dcf);
+}
+
+.footer-about ul li a {
+  font-size: 24px;
+  font-weight: 400;
+  letter-spacing: -0.24px;
+  color: var(--neutrals-6, #e6e8ec);
+}
+
+.footer-menu-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-menu h6 {
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--neutrals-6, #e6e8ec);
+}
+
+.footer-menu ul li {
+  padding-top: 13px;
+}
+
+.footer-menu ul li a {
+  font-size: 14px;
+  font-weight: 400;
+  color: var(--neutrals-4, #777e90);
+}
+
+.footer-wrapper hr {
+  margin: 64px 0 32px;
+  border-top: 1px solid #353945;
+  opacity: 1;
+}
+
+.footer-copyright p {
+  font-size: 12px;
+  margin: 0;
+  color: var(--neutrals-4, #777e90);
+}
+
+.cookies h6 {
+  display: flex;
+  font-size: 12px;
+  font-weight: 400;
+  margin: 0;
+  color: var(--neutrals-4, #777e90);
+}
+
+.cookies h6 a {
+  display: block;
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--primary-1, #009dcf);
+  padding-left: 16px;
+}
+
+/* Footer Accordion */
+
+.footer-accordion .accordion-button {
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--white) !important;
+}
+
+.footer-accordion .accordion-item {
+  border-left: 0 !important;
+  border-right: 0 !important;
+  border: 1px solid var(--neutrals-3, #353945);
+}
+
+.footer-copyright,
+.cookies {
+  text-align: center;
+  padding: 6px 0;
+}
+
+.cookies h6 {
+  justify-content: center;
+}
+
+/* Footer Part CSS End */

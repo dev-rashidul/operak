@@ -1,19 +1,97 @@
-/* Min Width 1200px and Max Width 1399px */
+/* Min Width 1201px and Max Width 1400px */
 
-@media (min-width: 1200px) and (max-width: 1399px) {
+@media (min-width: 1201px) and (max-width: 1400px) {
+  .hero-content h1 {
+    font-size: 63px;
+  }
 }
 
-/* Min Width 992px and Max Width 1199px */
+/* Min Width 993px and Max Width 1200px */
 
-@media (min-width: 992px) and (max-width: 1199px) {
+@media (min-width: 993px) and (max-width: 1200px) {
+  .hero-content h1 {
+    font-size: 52px;
+    line-height: 60px;
+  }
 }
 
-/* Min Width 768px and Max Width 991px */
+/* Min Width 769px and Max Width 992px */
 
-@media (min-width: 768px) and (max-width: 991px) {
+@media (min-width: 769px) and (max-width: 992px) {
+  .hero-content,
+  .hero-img {
+    padding-top: 50px;
+  }
+
+  .cars-body-container {
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: start;
+  }
 }
 
-/* Min Width 300px and Max Width 767px */
+/* Min Width 300px and Max Width 768px */
 
-@media (min-width: 300px) and (max-width: 767px) {
+@media (min-width: 300px) and (max-width: 768px) {
+  .container {
+    padding: 0 32px;
+  }
+
+  .py-80 {
+    padding: 64px 0;
+  }
+
+  .headline-2 {
+    font-size: 32px;
+    line-height: 40px;
+  }
+
+  .headline-4 {
+    font-size: 24px;
+    line-height: 30px;
+  }
+
+  .logo a {
+    font-size: 20px;
+  }
+
+  .hero-content,
+  .hero-img {
+    padding-top: 50px;
+  }
+
+  .hero-content h1 {
+    font-size: 32px;
+    line-height: 40px;
+  }
+
+  .fill-btn a,
+  .outline-btn a {
+    padding: 12px 16px;
+  }
+
+  .partners-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .work-top p {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .work-card {
+    padding-top: 32px;
+  }
+
+  .product-name h4 {
+    font-size: 16px;
+  }
+
+  .cars-body-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 20px;
+    row-gap: 16px;
+  }
 }
