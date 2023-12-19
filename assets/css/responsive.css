@@ -28,6 +28,12 @@
     gap: 20px;
     justify-content: start;
   }
+
+  /* Extract Page Responsive CSS */
+
+  .extract-hero-title h2 {
+    font-size: 36px;
+  }
 }
 
 /* Min Width 300px and Max Width 768px */
@@ -93,5 +99,61 @@
     grid-template-columns: repeat(3, 1fr);
     column-gap: 20px;
     row-gap: 16px;
+  }
+
+  /* Extract Page Responsive CSS */
+
+  .extract-hero-wrapper {
+    padding: 30px 0;
+  }
+
+  .extract-hero-title h2 {
+    font-size: 24px;
+    line-height: 30px;
+  }
+
+  .all-filters {
+    padding: 0;
+    border: none;
+  }
+
+  .all-filters-btn > button {
+    position: absolute;
+    top: 640px;
+    left: 50%;
+    transform: translate(-50%);
+    z-index: 99;
+  }
+
+  .recommended-cars-wrapper {
+    padding: 48px 0 50px;
+    background: #f3fafd;
+  }
+
+  .recommended-cars-container {
+    background: none;
+    padding: 0;
+  }
+
+  .product-bottom {
+    padding-bottom: 48px;
+  }
+
+  .showing-product,
+  .product-load-more-btn {
+    text-align: center;
+  }
+}
+
+@media (min-width: 361px) and (max-width: 414px) {
+  .all-filters-btn > button {
+    top: 660px;
+  }
+}
+
+@media (min-width: 415px) and (max-width: 450px) {
+  .all-filters-btn > button {
+    top: 695px;
+    padding: 16px 24px !important;
   }
 }

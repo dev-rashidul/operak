@@ -175,6 +175,7 @@ img {
     height: 100%;
     background: var(--neutrals-8, #fcfcfd);
     transition: left 0.3s ease-in-out;
+    z-index: 999;
   }
 
   .main-menu.active {
@@ -673,3 +674,209 @@ img {
 }
 
 /* Footer Part CSS End */
+
+/* ============***============
+Extract Page CSS
+============***============ */
+
+/* Extract Hero Section CSS Start */
+
+.extract-hero-wrapper {
+  padding: 48px 0;
+}
+
+.extract-hero-title h2 {
+  color: var(--neutrals-2, #23262f);
+}
+
+.all-filters {
+  padding: 15px 0;
+  border-bottom: 1px solid var(--neutrals-6, #e6e8ec);
+}
+
+.all-filters-btn > button {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 16px;
+  color: var(--neutrals-white, #fff);
+  background: var(--primary-1, #009dcf);
+  padding: 15px 24px;
+  border: none;
+  border-radius: 90px;
+}
+
+.all-filters-tags span {
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--primary-1, #009dcf);
+  padding-right: 15px;
+}
+
+.offcanvas-header h5 {
+  font-weight: 500;
+}
+
+.accordion.filter-accordion {
+  padding: 30px 0 100px;
+}
+
+.filter-accordion .accordion-button::after {
+  position: relative;
+  content: "+";
+  background-image: none;
+  transition: none;
+  color: var(--primary-1, #009dcf);
+  font-size: 20px;
+  top: -5px;
+}
+
+.filter-accordion .accordion-button:not(.collapsed)::after {
+  position: relative;
+  content: "-";
+  background-image: none;
+  top: 0px;
+  right: 9px;
+  transition: none;
+  color: var(--primary-1, #009dcf);
+  font-size: 20px;
+}
+
+.filter-accordion .accordion-button {
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--neutrals-2, #23262f);
+  padding: 0;
+}
+
+.filter-accordion .accordion-item {
+  padding-bottom: 24px;
+  border: none !important;
+}
+
+.accordion-button:not(.collapsed) {
+  box-shadow: none;
+}
+
+.filter-accordion .accordion-body {
+  padding: 5px 0 0;
+}
+
+.car-brand-input input {
+  width: 100%;
+  font-size: 14px;
+  padding: 12px 16px;
+  color: var(--neutrals-4, #777e90);
+  border: 1px solid var(--Neutrals-5, #b1b5c3);
+  border-radius: 6px;
+}
+
+.car-brand-input input:focus {
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--neutrals-3, #353945);
+  outline: 2px solid var(--primary-1, #009dcf);
+  border: none;
+}
+
+.filter-accordion-tags span {
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--neutrals-2, #23262f);
+  padding: 4px 16px;
+  margin-right: 5px;
+  border: 1px solid var(--neutrals-5, #b1b5c3);
+  border-radius: 6px;
+}
+
+.filter-accordion-tags span.active {
+  color: var(--white, #fff);
+  background: var(--primary-1, #009dcf);
+  border: 1px solid var(--primary-1, #009dcf);
+}
+
+.offcanvas-btn a {
+  display: block;
+  width: 100%;
+  font-size: 16px;
+  font-weight: 700;
+  text-align: center;
+  color: var(--neutrals-8, #fcfcfd);
+  padding: 16px;
+  background: var(--Primary-4, #00af12);
+  border-radius: 100px;
+}
+
+.vymazat-filtry-btn a {
+  display: block;
+  width: 100%;
+  font-size: 14px;
+  text-align: center;
+  color: var(--neutrals-4, #777e90);
+  padding-top: 10px;
+}
+
+.filter {
+  padding-top: 15px;
+}
+
+.filtered-tag span {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--neutrals-4, #777e90);
+  padding-right: 24px;
+}
+
+.filtered-tag span i {
+  font-size: 12px;
+  padding-left: 8px;
+  margin-top: 1px;
+}
+
+.clear-filters-btn a {
+  font-size: 14px;
+  color: var(--neutrals-4, #777e90);
+}
+
+.filter-select select {
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--neutrals-2, #23262f);
+  padding: 10px;
+  border: 1px solid var(--neutrals-6, #e6e8ec);
+  border-radius: 10px;
+}
+
+.filter-select select:focus {
+  outline: 0;
+}
+
+/* Extract Hero Section CSS End */
+
+.recommended-cars-container {
+  background: #f3fafd;
+  padding: 48px;
+}
+
+.product-bottom {
+  padding-bottom: 80px;
+}
+
+.showing-product span {
+  font-size: 16px;
+  color: var(--neutrals-4, #777e90);
+}
+
+.product-load-more-btn a {
+  display: block;
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--primary-1, #009dcf);
+  padding: 12px 0;
+}
+
+.product-load-more-btn a i {
+  font-size: 12px;
+  padding-left: 5px;
+}

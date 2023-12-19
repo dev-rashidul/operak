@@ -1,0 +1,1642 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Operak - Extract</title>
+
+    <!-- Font Awesome CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+
+    <!-- Owl Carousel CSS -->
+
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="assets/css/owl.theme.default.min.css" />
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+
+    <!-- Responsive CSS -->
+    <link rel="stylesheet" href="assets/css/responsive.css" />
+  </head>
+  <body>
+    <!-- Header Part HTML Start -->
+
+    <header>
+      <!-- Navigation Section HTML Start -->
+
+      <nav id="Navigation">
+        <div class="navigation-wrapper">
+          <div class="container">
+            <div
+              class="nav-container d-flex justify-content-between align-items-center"
+            >
+              <div class="logo">
+                <a href="#">OperakNaKlik.cz</a>
+              </div>
+              <div class="main-menu">
+                <ul class="d-flex align-items-center">
+                  <li><a href="#">Najděte mi auto</a></li>
+                  <li><a href="#">Nabídka vozů</a></li>
+                  <li><a href="#">Jak to funguje</a></li>
+                  <li><a href="#">Nejčastější dotazy</a></li>
+                  <li class="d-none d-lg-block"><a href="#">Kontakt</a></li>
+                </ul>
+                <div class="contact-btn d-lg-none"><a href="#">Kontakt</a></div>
+              </div>
+              <div id="bars-icon">
+                <img src="assets/images/burger-icon.svg" alt="burger-icon" />
+              </div>
+              <div id="cross-icon">
+                <img src="assets/images/cross-icon.svg" alt="cross-icon" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      <!-- Navigation Section HTML End -->
+
+      <!-- Extract Hero Section HTML Start -->
+
+      <section id="Extract-hero">
+        <div class="extract-hero-wrapper">
+          <div class="container">
+            <div class="extract-hero-container">
+              <div class="extract-hero-title">
+                <h2 class="headline-2">Nabídka 457 vozů</h2>
+              </div>
+              <div class="all-filters d-flex align-items-center">
+                <div class="all-filters-tags d-none d-lg-block py-2">
+                  <span>Značka</span>
+                  <span>Karoserie</span>
+                  <span>Převodovka</span>
+                  <span>Palivo</span>
+                  <span>Výbava</span>
+                  <span>Nájezd km</span>
+                  <span>Splátka</span>
+                  <span>Délka splácení</span>
+                </div>
+                <div class="all-filters-btn">
+                  <button
+                    type="button"
+                    data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasRight"
+                    aria-controls="offcanvasRight"
+                  >
+                    Všechny filtry
+                  </button>
+
+                  <!-- Offcanvas Start -->
+
+                  <div
+                    class="offcanvas offcanvas-end"
+                    tabindex="-1"
+                    id="offcanvasRight"
+                    aria-labelledby="offcanvasRightLabel"
+                  >
+                    <div class="offcanvas-header">
+                      <h5 class="body-2" id="offcanvasRightLabel">Filtry</h5>
+                      <button
+                        type="button"
+                        class="btn-close"
+                        data-bs-dismiss="offcanvas"
+                        aria-label="Close"
+                      ></button>
+                    </div>
+                    <div class="offcanvas-body">
+                      <div class="filter-offcanvas">
+                        <div
+                          class="filtered-tag d-flex flex-wrap gap-3 align-items-center"
+                        >
+                          <span>Škoda <i class="fa-solid fa-times"></i> </span>
+                          <span
+                            >Automatická <i class="fa-solid fa-times"></i>
+                          </span>
+                          <span>Nafta <i class="fa-solid fa-times"></i> </span>
+                          <span
+                            >5000 Km/rok <i class="fa-solid fa-times"></i>
+                          </span>
+                        </div>
+                        <div
+                          class="accordion filter-accordion accordion-flush"
+                          id="accordionFlushExample"
+                        >
+                          <div class="accordion-item">
+                            <h2 class="accordion-header">
+                              <button
+                                class="accordion-button collapsed"
+                                type="button"
+                                data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseFilterOne"
+                                aria-expanded="false"
+                                aria-controls="flush-collapseFilterOne"
+                              >
+                                Značka vozu
+                              </button>
+                            </h2>
+                            <div
+                              id="flush-collapseFilterOne"
+                              class="accordion-collapse collapse"
+                              data-bs-parent="#accordionFlushExample"
+                            >
+                              <div class="accordion-body">
+                                <div class="car-brand-input">
+                                  <input type="text" />
+                                </div>
+                                <div
+                                  class="filtered-tag d-flex flex-wrap gap-2 align-items-center pt-1"
+                                >
+                                  <span
+                                    >Škoda <i class="fa-solid fa-times"></i>
+                                  </span>
+                                  <span
+                                    >Opel
+                                    <i class="fa-solid fa-times"></i>
+                                  </span>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="accordion-item">
+                            <h2 class="accordion-header">
+                              <button
+                                class="accordion-button collapsed"
+                                type="button"
+                                data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseFilterTwo"
+                                aria-expanded="false"
+                                aria-controls="flush-collapseFilterTwo"
+                              >
+                                Model
+                              </button>
+                            </h2>
+                            <div
+                              id="flush-collapseFilterTwo"
+                              class="accordion-collapse collapse"
+                              data-bs-parent="#accordionFlushExample"
+                            >
+                              <div class="accordion-body">
+                                <div class="car-brand-input">
+                                  <input type="text" />
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="accordion-item">
+                            <h2 class="accordion-header">
+                              <button
+                                class="accordion-button collapsed"
+                                type="button"
+                                data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseFilterThree"
+                                aria-expanded="false"
+                                aria-controls="flush-collapseFilterThree"
+                              >
+                                Motor
+                              </button>
+                            </h2>
+                            <div
+                              id="flush-collapseFilterThree"
+                              class="accordion-collapse collapse"
+                              data-bs-parent="#accordionFlushExample"
+                            >
+                              <div class="accordion-body">
+                                <div
+                                  class="filter-accordion-tags d-flex flex-wrap gap-2 pt-1"
+                                >
+                                  <span class="active">benzín</span>
+                                  <span>nafta</span>
+                                  <span>hybrid</span>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="accordion-item">
+                            <h2 class="accordion-header">
+                              <button
+                                class="accordion-button collapsed"
+                                type="button"
+                                data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseFilterFour"
+                                aria-expanded="false"
+                                aria-controls="flush-collapseFilterFour"
+                              >
+                                Převodovka
+                              </button>
+                            </h2>
+                            <div
+                              id="flush-collapseFilterFour"
+                              class="accordion-collapse collapse"
+                              data-bs-parent="#accordionFlushExample"
+                            >
+                              <div class="accordion-body">
+                                <div
+                                  class="filter-accordion-tags d-flex flex-wrap gap-2 pt-1"
+                                >
+                                  <span>automatická</span>
+                                  <span>manuální</span>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="accordion-item">
+                            <h2 class="accordion-header">
+                              <button
+                                class="accordion-button collapsed"
+                                type="button"
+                                data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseFilterFive"
+                                aria-expanded="false"
+                                aria-controls="flush-collapseFilterFive"
+                              >
+                                Roční nájezd
+                              </button>
+                            </h2>
+                            <div
+                              id="flush-collapseFilterFive"
+                              class="accordion-collapse collapse"
+                              data-bs-parent="#accordionFlushExample"
+                            >
+                              <div class="accordion-body">
+                                <p>something</p>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="accordion-item">
+                            <h2 class="accordion-header">
+                              <button
+                                class="accordion-button collapsed"
+                                type="button"
+                                data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseFilterSix"
+                                aria-expanded="false"
+                                aria-controls="flush-collapseFilterSix"
+                              >
+                                Délka pronájmu
+                              </button>
+                            </h2>
+                            <div
+                              id="flush-collapseFilterSix"
+                              class="accordion-collapse collapse"
+                              data-bs-parent="#accordionFlushExample"
+                            >
+                              <div class="accordion-body">
+                                <p>something</p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="offcanvas-btn">
+                          <a href="#">Zobrazit 24 vozů</a>
+                        </div>
+                        <div class="vymazat-filtry-btn">
+                          <a href="#">Vymazat filtry</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="filter d-flex justify-content-between align-items-center"
+              >
+                <div class="filtered-tag d-flex flex-wrap row-gap-3">
+                  <span>Škoda <i class="fa-solid fa-times"></i> </span>
+                  <span>Automatická <i class="fa-solid fa-times"></i> </span>
+                  <span>Nafta <i class="fa-solid fa-times"></i> </span>
+                  <span>5000 Km/rok <i class="fa-solid fa-times"></i> </span>
+                  <div class="clear-filters-btn d-none d-lg-block">
+                    <a href="#">Vymazat filtry</a>
+                  </div>
+                </div>
+                <div class="filter-select d-none d-md-block">
+                  <select>
+                    <option value="Nejlevnější">Nejlevnější</option>
+                    <option value="Nejlevnější2">Nejlevnější2</option>
+                    <option value="Nejlevnější3">Nejlevnější3</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Extract Hero Section HTML End -->
+    </header>
+
+    <!-- Header Part HTML End -->
+
+    <!-- Main Part HTML Start -->
+
+    <main>
+      <!-- Recommended Cars Section HTML Start -->
+
+      <section id="Recommended-cars">
+        <div class="recommended-cars-wrapper">
+          <div class="container">
+            <div class="recommended-cars-container">
+              <div class="product-top">
+                <h3 class="headline-4">Doporučené vozy</h3>
+              </div>
+              <div class="recommended-cars-slider owl-carousel owl-theme">
+                <div class="product-card item">
+                  <div class="product-img position-relative">
+                    <div
+                      class="product-card-top w-100 d-flex justify-content-between"
+                    >
+                      <div class="product-tag">
+                        <span>Novinka</span>
+                      </div>
+                      <div class="product-quantity">
+                        <span>17</span>
+                      </div>
+                    </div>
+                    <img src="assets/images/car-img1.png" alt="car-img1" />
+                  </div>
+                  <div class="product-content">
+                    <div class="d-flex justify-content-between">
+                      <div class="product-name">
+                        <h6>Škoda</h6>
+                        <h4>Kamiq</h4>
+                      </div>
+                      <div class="product-category">
+                        <span>SUV</span>
+                      </div>
+                    </div>
+                    <div class="product-price">
+                      <p>od 21 500 Kč/měs</p>
+                    </div>
+                    <div class="add-collection-btn pt-1">
+                      <a href="#">Vybrat konfiguraci</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="product-card item">
+                  <div class="product-img position-relative">
+                    <div
+                      class="product-card-top w-100 d-flex justify-content-between"
+                    >
+                      <div class="product-tag">
+                        <span>Novinka</span>
+                      </div>
+                      <div class="product-quantity">
+                        <span>17</span>
+                      </div>
+                    </div>
+                    <img src="assets/images/car-img3.png" alt="car-img3" />
+                  </div>
+                  <div class="product-content">
+                    <div class="d-flex justify-content-between">
+                      <div class="product-name">
+                        <h6>Škoda</h6>
+                        <h4>Kamiq</h4>
+                      </div>
+                      <div class="product-category">
+                        <span>SUV</span>
+                      </div>
+                    </div>
+                    <div class="product-price">
+                      <p>od 21 500 Kč/měs</p>
+                    </div>
+                    <div class="add-collection-btn pt-1">
+                      <a href="#">Vybrat konfiguraci</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="product-card item">
+                  <div class="product-img position-relative">
+                    <div
+                      class="product-card-top w-100 d-flex justify-content-between"
+                    >
+                      <div class="product-tag">
+                        <span>Novinka</span>
+                      </div>
+                      <div class="product-quantity">
+                        <span>17</span>
+                      </div>
+                    </div>
+                    <img src="assets/images/car-img6.png" alt="car-img6" />
+                  </div>
+                  <div class="product-content">
+                    <div class="d-flex justify-content-between">
+                      <div class="product-name">
+                        <h6>Škoda</h6>
+                        <h4>Kamiq</h4>
+                      </div>
+                      <div class="product-category">
+                        <span>SUV</span>
+                      </div>
+                    </div>
+                    <div class="product-price">
+                      <p>od 21 500 Kč/měs</p>
+                    </div>
+                    <div class="add-collection-btn pt-1">
+                      <a href="#">Vybrat konfiguraci</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="product-card item">
+                  <div class="product-img position-relative">
+                    <div
+                      class="product-card-top w-100 d-flex justify-content-between"
+                    >
+                      <div class="product-tag">
+                        <span>Novinka</span>
+                      </div>
+                      <div class="product-quantity">
+                        <span>17</span>
+                      </div>
+                    </div>
+                    <img src="assets/images/car-img4.png" alt="car-img4" />
+                  </div>
+                  <div class="product-content">
+                    <div class="d-flex justify-content-between">
+                      <div class="product-name">
+                        <h6>Škoda</h6>
+                        <h4>Kamiq</h4>
+                      </div>
+                      <div class="product-category">
+                        <span>SUV</span>
+                      </div>
+                    </div>
+                    <div class="product-price">
+                      <p>od 21 500 Kč/měs</p>
+                    </div>
+                    <div class="add-collection-btn pt-1">
+                      <a href="#">Vybrat konfiguraci</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="all-filters-btn">
+              <button
+                type="button"
+                data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasRight"
+                aria-controls="offcanvasRight"
+              >
+                Všechny filtry
+              </button>
+
+              <!-- Offcanvas Start -->
+
+              <div
+                class="offcanvas offcanvas-end"
+                tabindex="-1"
+                id="offcanvasRight"
+                aria-labelledby="offcanvasRightLabel"
+              >
+                <div class="offcanvas-header">
+                  <h5 class="body-2" id="offcanvasRightLabel">Filtry</h5>
+                  <button
+                    type="button"
+                    class="btn-close"
+                    data-bs-dismiss="offcanvas"
+                    aria-label="Close"
+                  ></button>
+                </div>
+                <div class="offcanvas-body">
+                  <div class="filter-offcanvas">
+                    <div
+                      class="filtered-tag d-flex flex-wrap gap-3 align-items-center"
+                    >
+                      <span>Škoda <i class="fa-solid fa-times"></i> </span>
+                      <span
+                        >Automatická <i class="fa-solid fa-times"></i>
+                      </span>
+                      <span>Nafta <i class="fa-solid fa-times"></i> </span>
+                      <span
+                        >5000 Km/rok <i class="fa-solid fa-times"></i>
+                      </span>
+                    </div>
+                    <div
+                      class="accordion filter-accordion accordion-flush"
+                      id="accordionFlushExample"
+                    >
+                      <div class="accordion-item">
+                        <h2 class="accordion-header">
+                          <button
+                            class="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseFilterOne"
+                            aria-expanded="false"
+                            aria-controls="flush-collapseFilterOne"
+                          >
+                            Značka vozu
+                          </button>
+                        </h2>
+                        <div
+                          id="flush-collapseFilterOne"
+                          class="accordion-collapse collapse"
+                          data-bs-parent="#accordionFlushExample"
+                        >
+                          <div class="accordion-body">
+                            <div class="car-brand-input">
+                              <input type="text" />
+                            </div>
+                            <div
+                              class="filtered-tag d-flex flex-wrap gap-2 align-items-center pt-1"
+                            >
+                              <span
+                                >Škoda <i class="fa-solid fa-times"></i>
+                              </span>
+                              <span
+                                >Opel
+                                <i class="fa-solid fa-times"></i>
+                              </span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="accordion-item">
+                        <h2 class="accordion-header">
+                          <button
+                            class="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseFilterTwo"
+                            aria-expanded="false"
+                            aria-controls="flush-collapseFilterTwo"
+                          >
+                            Model
+                          </button>
+                        </h2>
+                        <div
+                          id="flush-collapseFilterTwo"
+                          class="accordion-collapse collapse"
+                          data-bs-parent="#accordionFlushExample"
+                        >
+                          <div class="accordion-body">
+                            <div class="car-brand-input">
+                              <input type="text" />
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="accordion-item">
+                        <h2 class="accordion-header">
+                          <button
+                            class="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseFilterThree"
+                            aria-expanded="false"
+                            aria-controls="flush-collapseFilterThree"
+                          >
+                            Motor
+                          </button>
+                        </h2>
+                        <div
+                          id="flush-collapseFilterThree"
+                          class="accordion-collapse collapse"
+                          data-bs-parent="#accordionFlushExample"
+                        >
+                          <div class="accordion-body">
+                            <div
+                              class="filter-accordion-tags d-flex flex-wrap gap-2 pt-1"
+                            >
+                              <span class="active">benzín</span>
+                              <span>nafta</span>
+                              <span>hybrid</span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="accordion-item">
+                        <h2 class="accordion-header">
+                          <button
+                            class="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseFilterFour"
+                            aria-expanded="false"
+                            aria-controls="flush-collapseFilterFour"
+                          >
+                            Převodovka
+                          </button>
+                        </h2>
+                        <div
+                          id="flush-collapseFilterFour"
+                          class="accordion-collapse collapse"
+                          data-bs-parent="#accordionFlushExample"
+                        >
+                          <div class="accordion-body">
+                            <div
+                              class="filter-accordion-tags d-flex flex-wrap gap-2 pt-1"
+                            >
+                              <span>automatická</span>
+                              <span>manuální</span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="accordion-item">
+                        <h2 class="accordion-header">
+                          <button
+                            class="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseFilterFive"
+                            aria-expanded="false"
+                            aria-controls="flush-collapseFilterFive"
+                          >
+                            Roční nájezd
+                          </button>
+                        </h2>
+                        <div
+                          id="flush-collapseFilterFive"
+                          class="accordion-collapse collapse"
+                          data-bs-parent="#accordionFlushExample"
+                        >
+                          <div class="accordion-body">
+                            <p>something</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="accordion-item">
+                        <h2 class="accordion-header">
+                          <button
+                            class="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseFilterSix"
+                            aria-expanded="false"
+                            aria-controls="flush-collapseFilterSix"
+                          >
+                            Délka pronájmu
+                          </button>
+                        </h2>
+                        <div
+                          id="flush-collapseFilterSix"
+                          class="accordion-collapse collapse"
+                          data-bs-parent="#accordionFlushExample"
+                        >
+                          <div class="accordion-body">
+                            <p>something</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="offcanvas-btn">
+                      <a href="#">Zobrazit 24 vozů</a>
+                    </div>
+                    <div class="vymazat-filtry-btn">
+                      <a href="#">Vymazat filtry</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Recommended Cars Section HTML End -->
+
+      <!-- Product Section HTML Start -->
+
+      <section id="Product">
+        <div class="product-wrapper">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-6 col-lg-3 pt-5">
+                <div class="product-card">
+                  <div class="product-img position-relative">
+                    <div
+                      class="product-card-top w-100 d-flex justify-content-between"
+                    >
+                      <div class="product-tag">
+                        <span>Novinka</span>
+                      </div>
+                      <div class="product-quantity">
+                        <span>17</span>
+                      </div>
+                    </div>
+                    <img src="assets/images/car-img1.png" alt="car-img1" />
+                  </div>
+                  <div class="product-content">
+                    <div class="d-flex justify-content-between">
+                      <div class="product-name">
+                        <h6>Škoda</h6>
+                        <h4>Kamiq</h4>
+                      </div>
+                      <div class="product-category">
+                        <span>SUV</span>
+                      </div>
+                    </div>
+                    <div class="product-price">
+                      <p>od 21 500 Kč/měs</p>
+                    </div>
+                    <div class="add-collection-btn pt-1">
+                      <a href="#">Vybrat konfiguraci</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 col-lg-3 pt-5">
+                <div class="product-card">
+                  <div class="product-img position-relative">
+                    <div
+                      class="product-card-top w-100 d-flex justify-content-between"
+                    >
+                      <div class="product-tag">
+                        <span>Novinka</span>
+                      </div>
+                      <div class="product-quantity">
+                        <span>17</span>
+                      </div>
+                    </div>
+                    <img src="assets/images/car-img2.png" alt="car-img2" />
+                  </div>
+                  <div class="product-content">
+                    <div class="d-flex justify-content-between">
+                      <div class="product-name">
+                        <h6>Škoda</h6>
+                        <h4>Kamiq</h4>
+                      </div>
+                      <div class="product-category">
+                        <span>SUV</span>
+                      </div>
+                    </div>
+                    <div class="product-price">
+                      <p>od 21 500 Kč/měs</p>
+                    </div>
+                    <div class="add-collection-btn pt-1">
+                      <a href="#">Vybrat konfiguraci</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 col-lg-3 pt-5">
+                <div class="product-card">
+                  <div class="product-img position-relative">
+                    <div
+                      class="product-card-top w-100 d-flex justify-content-between"
+                    >
+                      <div class="product-tag">
+                        <span>Novinka</span>
+                      </div>
+                      <div class="product-quantity">
+                        <span>17</span>
+                      </div>
+                    </div>
+                    <img src="assets/images/car-img3.png" alt="car-img3" />
+                  </div>
+                  <div class="product-content">
+                    <div class="d-flex justify-content-between">
+                      <div class="product-name">
+                        <h6>Škoda</h6>
+                        <h4>Kamiq</h4>
+                      </div>
+                      <div class="product-category">
+                        <span>SUV</span>
+                      </div>
+                    </div>
+                    <div class="product-price">
+                      <p>od 21 500 Kč/měs</p>
+                    </div>
+                    <div class="add-collection-btn pt-1">
+                      <a href="#">Vybrat konfiguraci</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 col-lg-3 pt-5">
+                <div class="product-card">
+                  <div class="product-img position-relative">
+                    <div
+                      class="product-card-top w-100 d-flex justify-content-between"
+                    >
+                      <div class="product-tag">
+                        <span>Novinka</span>
+                      </div>
+                      <div class="product-quantity">
+                        <span>17</span>
+                      </div>
+                    </div>
+                    <img src="assets/images/car-img4.png" alt="car-img4" />
+                  </div>
+                  <div class="product-content">
+                    <div class="d-flex justify-content-between">
+                      <div class="product-name">
+                        <h6>Škoda</h6>
+                        <h4>Kamiq</h4>
+                      </div>
+                      <div class="product-category">
+                        <span>SUV</span>
+                      </div>
+                    </div>
+                    <div class="product-price">
+                      <p>od 21 500 Kč/měs</p>
+                    </div>
+                    <div class="add-collection-btn pt-1">
+                      <a href="#">Vybrat konfiguraci</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 col-lg-3 pt-5">
+                <div class="product-card">
+                  <div class="product-img position-relative">
+                    <div
+                      class="product-card-top w-100 d-flex justify-content-between"
+                    >
+                      <div class="product-tag">
+                        <span>Novinka</span>
+                      </div>
+                      <div class="product-quantity">
+                        <span>17</span>
+                      </div>
+                    </div>
+                    <img src="assets/images/car-img5.png" alt="car-img5" />
+                  </div>
+                  <div class="product-content">
+                    <div class="d-flex justify-content-between">
+                      <div class="product-name">
+                        <h6>Škoda</h6>
+                        <h4>Kamiq</h4>
+                      </div>
+                      <div class="product-category">
+                        <span>SUV</span>
+                      </div>
+                    </div>
+                    <div class="product-price">
+                      <p>od 21 500 Kč/měs</p>
+                    </div>
+                    <div class="add-collection-btn pt-1">
+                      <a href="#">Vybrat konfiguraci</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 col-lg-3 pt-5">
+                <div class="product-card">
+                  <div class="product-img position-relative">
+                    <div
+                      class="product-card-top w-100 d-flex justify-content-between"
+                    >
+                      <div class="product-tag">
+                        <span>Novinka</span>
+                      </div>
+                      <div class="product-quantity">
+                        <span>17</span>
+                      </div>
+                    </div>
+                    <img src="assets/images/car-img6.png" alt="car-img6" />
+                  </div>
+                  <div class="product-content">
+                    <div class="d-flex justify-content-between">
+                      <div class="product-name">
+                        <h6>Škoda</h6>
+                        <h4>Kamiq</h4>
+                      </div>
+                      <div class="product-category">
+                        <span>SUV</span>
+                      </div>
+                    </div>
+                    <div class="product-price">
+                      <p>od 21 500 Kč/měs</p>
+                    </div>
+                    <div class="add-collection-btn pt-1">
+                      <a href="#">Vybrat konfiguraci</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 col-lg-3 pt-5">
+                <div class="product-card">
+                  <div class="product-img position-relative">
+                    <div
+                      class="product-card-top w-100 d-flex justify-content-between"
+                    >
+                      <div class="product-tag">
+                        <span>Novinka</span>
+                      </div>
+                      <div class="product-quantity">
+                        <span>17</span>
+                      </div>
+                    </div>
+                    <img src="assets/images/car-img1.png" alt="car-img1" />
+                  </div>
+                  <div class="product-content">
+                    <div class="d-flex justify-content-between">
+                      <div class="product-name">
+                        <h6>Škoda</h6>
+                        <h4>Kamiq</h4>
+                      </div>
+                      <div class="product-category">
+                        <span>SUV</span>
+                      </div>
+                    </div>
+                    <div class="product-price">
+                      <p>od 21 500 Kč/měs</p>
+                    </div>
+                    <div class="add-collection-btn pt-1">
+                      <a href="#">Vybrat konfiguraci</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 col-lg-3 pt-5">
+                <div class="product-card">
+                  <div class="product-img position-relative">
+                    <div
+                      class="product-card-top w-100 d-flex justify-content-between"
+                    >
+                      <div class="product-tag">
+                        <span>Novinka</span>
+                      </div>
+                      <div class="product-quantity">
+                        <span>17</span>
+                      </div>
+                    </div>
+                    <img src="assets/images/car-img2.png" alt="car-img2" />
+                  </div>
+                  <div class="product-content">
+                    <div class="d-flex justify-content-between">
+                      <div class="product-name">
+                        <h6>Škoda</h6>
+                        <h4>Kamiq</h4>
+                      </div>
+                      <div class="product-category">
+                        <span>SUV</span>
+                      </div>
+                    </div>
+                    <div class="product-price">
+                      <p>od 21 500 Kč/měs</p>
+                    </div>
+                    <div class="add-collection-btn pt-1">
+                      <a href="#">Vybrat konfiguraci</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 col-lg-3 pt-5">
+                <div class="product-card">
+                  <div class="product-img position-relative">
+                    <div
+                      class="product-card-top w-100 d-flex justify-content-between"
+                    >
+                      <div class="product-tag">
+                        <span>Novinka</span>
+                      </div>
+                      <div class="product-quantity">
+                        <span>17</span>
+                      </div>
+                    </div>
+                    <img src="assets/images/car-img3.png" alt="car-img3" />
+                  </div>
+                  <div class="product-content">
+                    <div class="d-flex justify-content-between">
+                      <div class="product-name">
+                        <h6>Škoda</h6>
+                        <h4>Kamiq</h4>
+                      </div>
+                      <div class="product-category">
+                        <span>SUV</span>
+                      </div>
+                    </div>
+                    <div class="product-price">
+                      <p>od 21 500 Kč/měs</p>
+                    </div>
+                    <div class="add-collection-btn pt-1">
+                      <a href="#">Vybrat konfiguraci</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 col-lg-3 pt-5">
+                <div class="product-card">
+                  <div class="product-img position-relative">
+                    <div
+                      class="product-card-top w-100 d-flex justify-content-between"
+                    >
+                      <div class="product-tag">
+                        <span>Novinka</span>
+                      </div>
+                      <div class="product-quantity">
+                        <span>17</span>
+                      </div>
+                    </div>
+                    <img src="assets/images/car-img4.png" alt="car-img4" />
+                  </div>
+                  <div class="product-content">
+                    <div class="d-flex justify-content-between">
+                      <div class="product-name">
+                        <h6>Škoda</h6>
+                        <h4>Kamiq</h4>
+                      </div>
+                      <div class="product-category">
+                        <span>SUV</span>
+                      </div>
+                    </div>
+                    <div class="product-price">
+                      <p>od 21 500 Kč/měs</p>
+                    </div>
+                    <div class="add-collection-btn pt-1">
+                      <a href="#">Vybrat konfiguraci</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 col-lg-3 pt-5">
+                <div class="product-card">
+                  <div class="product-img position-relative">
+                    <div
+                      class="product-card-top w-100 d-flex justify-content-between"
+                    >
+                      <div class="product-tag">
+                        <span>Novinka</span>
+                      </div>
+                      <div class="product-quantity">
+                        <span>17</span>
+                      </div>
+                    </div>
+                    <img src="assets/images/car-img5.png" alt="car-img5" />
+                  </div>
+                  <div class="product-content">
+                    <div class="d-flex justify-content-between">
+                      <div class="product-name">
+                        <h6>Škoda</h6>
+                        <h4>Kamiq</h4>
+                      </div>
+                      <div class="product-category">
+                        <span>SUV</span>
+                      </div>
+                    </div>
+                    <div class="product-price">
+                      <p>od 21 500 Kč/měs</p>
+                    </div>
+                    <div class="add-collection-btn pt-1">
+                      <a href="#">Vybrat konfiguraci</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 col-lg-3 pt-5">
+                <div class="product-card">
+                  <div class="product-img position-relative">
+                    <div
+                      class="product-card-top w-100 d-flex justify-content-between"
+                    >
+                      <div class="product-tag">
+                        <span>Novinka</span>
+                      </div>
+                      <div class="product-quantity">
+                        <span>17</span>
+                      </div>
+                    </div>
+                    <img src="assets/images/car-img6.png" alt="car-img6" />
+                  </div>
+                  <div class="product-content">
+                    <div class="d-flex justify-content-between">
+                      <div class="product-name">
+                        <h6>Škoda</h6>
+                        <h4>Kamiq</h4>
+                      </div>
+                      <div class="product-category">
+                        <span>SUV</span>
+                      </div>
+                    </div>
+                    <div class="product-price">
+                      <p>od 21 500 Kč/měs</p>
+                    </div>
+                    <div class="add-collection-btn pt-1">
+                      <a href="#">Vybrat konfiguraci</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 col-lg-3 pt-5">
+                <div class="product-card">
+                  <div class="product-img position-relative">
+                    <div
+                      class="product-card-top w-100 d-flex justify-content-between"
+                    >
+                      <div class="product-tag">
+                        <span>Novinka</span>
+                      </div>
+                      <div class="product-quantity">
+                        <span>17</span>
+                      </div>
+                    </div>
+                    <img src="assets/images/car-img1.png" alt="car-img1" />
+                  </div>
+                  <div class="product-content">
+                    <div class="d-flex justify-content-between">
+                      <div class="product-name">
+                        <h6>Škoda</h6>
+                        <h4>Kamiq</h4>
+                      </div>
+                      <div class="product-category">
+                        <span>SUV</span>
+                      </div>
+                    </div>
+                    <div class="product-price">
+                      <p>od 21 500 Kč/měs</p>
+                    </div>
+                    <div class="add-collection-btn pt-1">
+                      <a href="#">Vybrat konfiguraci</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 col-lg-3 pt-5">
+                <div class="product-card">
+                  <div class="product-img position-relative">
+                    <div
+                      class="product-card-top w-100 d-flex justify-content-between"
+                    >
+                      <div class="product-tag">
+                        <span>Novinka</span>
+                      </div>
+                      <div class="product-quantity">
+                        <span>17</span>
+                      </div>
+                    </div>
+                    <img src="assets/images/car-img2.png" alt="car-img2" />
+                  </div>
+                  <div class="product-content">
+                    <div class="d-flex justify-content-between">
+                      <div class="product-name">
+                        <h6>Škoda</h6>
+                        <h4>Kamiq</h4>
+                      </div>
+                      <div class="product-category">
+                        <span>SUV</span>
+                      </div>
+                    </div>
+                    <div class="product-price">
+                      <p>od 21 500 Kč/měs</p>
+                    </div>
+                    <div class="add-collection-btn pt-1">
+                      <a href="#">Vybrat konfiguraci</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 col-lg-3 pt-5">
+                <div class="product-card">
+                  <div class="product-img position-relative">
+                    <div
+                      class="product-card-top w-100 d-flex justify-content-between"
+                    >
+                      <div class="product-tag">
+                        <span>Novinka</span>
+                      </div>
+                      <div class="product-quantity">
+                        <span>17</span>
+                      </div>
+                    </div>
+                    <img src="assets/images/car-img3.png" alt="car-img3" />
+                  </div>
+                  <div class="product-content">
+                    <div class="d-flex justify-content-between">
+                      <div class="product-name">
+                        <h6>Škoda</h6>
+                        <h4>Kamiq</h4>
+                      </div>
+                      <div class="product-category">
+                        <span>SUV</span>
+                      </div>
+                    </div>
+                    <div class="product-price">
+                      <p>od 21 500 Kč/měs</p>
+                    </div>
+                    <div class="add-collection-btn pt-1">
+                      <a href="#">Vybrat konfiguraci</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 col-lg-3 pt-5">
+                <div class="product-card">
+                  <div class="product-img position-relative">
+                    <div
+                      class="product-card-top w-100 d-flex justify-content-between"
+                    >
+                      <div class="product-tag">
+                        <span>Novinka</span>
+                      </div>
+                      <div class="product-quantity">
+                        <span>17</span>
+                      </div>
+                    </div>
+                    <img src="assets/images/car-img4.png" alt="car-img4" />
+                  </div>
+                  <div class="product-content">
+                    <div class="d-flex justify-content-between">
+                      <div class="product-name">
+                        <h6>Škoda</h6>
+                        <h4>Kamiq</h4>
+                      </div>
+                      <div class="product-category">
+                        <span>SUV</span>
+                      </div>
+                    </div>
+                    <div class="product-price">
+                      <p>od 21 500 Kč/měs</p>
+                    </div>
+                    <div class="add-collection-btn pt-1">
+                      <a href="#">Vybrat konfiguraci</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="product-bottom pt-5">
+                <div class="row">
+                  <div class="col-md-6">
+                    <div class="showing-product">
+                      <span>Zobrazeno 48 ze 457</span>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="product-load-more-btn">
+                      <a href="#"
+                        >Načíst další <i class="fa-solid fa-chevron-down"></i
+                      ></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Product Section HTML End -->
+
+      <!-- FAQ Section HTML Start -->
+
+      <section id="FAQ">
+        <div class="faq-wrapper py-80">
+          <div class="container">
+            <div class="faq-title text-center">
+              <h2 class="headline-2">Nejčastější dotazy</h2>
+            </div>
+            <div class="accordion accordion-flush" id="accordionFlushExample">
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseOne"
+                    aria-expanded="false"
+                    aria-controls="flush-collapseOne"
+                  >
+                    <span>01</span>Kolik máte aut
+                  </button>
+                </h2>
+                <div
+                  id="flush-collapseOne"
+                  class="accordion-collapse collapse"
+                  data-bs-parent="#accordionFlushExample"
+                >
+                  <div class="accordion-body">
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Donec et ultricies risus, sit amet malesuada ligula.
+                      Vivamus sed arcu ut tortor consectetur tincidunt sed a
+                      nisi. Pellentesque eget aliquet velit, in gravida lorem.
+                      Vivamu tincidunt justo nisi, accumsan rutrum libero
+                      lacinia non. Praesent eget imperdiet orci. In scelerisque
+                      nisl rhoncus, malesuada augue in, fringilla metus. Mauris
+                      vestibulum tincidunt dui. Nullam eget est viverra, mattis
+                      velit ac, dignissim massa. Maecenas magna ipsum, lobortis
+                      non rutrum ac, aliquamat risus.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseTwo"
+                    aria-expanded="false"
+                    aria-controls="flush-collapseTwo"
+                  >
+                    <span>02</span>Jak funguje roční nájezd
+                  </button>
+                </h2>
+                <div
+                  id="flush-collapseTwo"
+                  class="accordion-collapse collapse"
+                  data-bs-parent="#accordionFlushExample"
+                >
+                  <div class="accordion-body">
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Donec et ultricies risus, sit amet malesuada ligula.
+                      Vivamus sed arcu ut tortor consectetur tincidunt sed a
+                      nisi. Pellentesque eget aliquet velit, in gravida lorem.
+                      Vivamu tincidunt justo nisi, accumsan rutrum libero
+                      lacinia non. Praesent eget imperdiet orci. In scelerisque
+                      nisl rhoncus, malesuada augue in, fringilla metus. Mauris
+                      vestibulum tincidunt dui. Nullam eget est viverra, mattis
+                      velit ac, dignissim massa. Maecenas magna ipsum, lobortis
+                      non rutrum ac, aliquamat risus.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseThree"
+                    aria-expanded="false"
+                    aria-controls="flush-collapseThree"
+                  >
+                    <span>03</span>Lorem ipsum dolor sit amet
+                  </button>
+                </h2>
+                <div
+                  id="flush-collapseThree"
+                  class="accordion-collapse collapse"
+                  data-bs-parent="#accordionFlushExample"
+                >
+                  <div class="accordion-body">
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Donec et ultricies risus, sit amet malesuada ligula.
+                      Vivamus sed arcu ut tortor consectetur tincidunt sed a
+                      nisi. Pellentesque eget aliquet velit, in gravida lorem.
+                      Vivamu tincidunt justo nisi, accumsan rutrum libero
+                      lacinia non. Praesent eget imperdiet orci. In scelerisque
+                      nisl rhoncus, malesuada augue in, fringilla metus. Mauris
+                      vestibulum tincidunt dui. Nullam eget est viverra, mattis
+                      velit ac, dignissim massa. Maecenas magna ipsum, lobortis
+                      non rutrum ac, aliquamat risus.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseFour"
+                    aria-expanded="false"
+                    aria-controls="flush-collapseFour"
+                  >
+                    <span>04</span>Lorem ipsum dolor sit amet
+                  </button>
+                </h2>
+                <div
+                  id="flush-collapseFour"
+                  class="accordion-collapse collapse"
+                  data-bs-parent="#accordionFlushExample"
+                >
+                  <div class="accordion-body">
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Donec et ultricies risus, sit amet malesuada ligula.
+                      Vivamus sed arcu ut tortor consectetur tincidunt sed a
+                      nisi. Pellentesque eget aliquet velit, in gravida lorem.
+                      Vivamu tincidunt justo nisi, accumsan rutrum libero
+                      lacinia non. Praesent eget imperdiet orci. In scelerisque
+                      nisl rhoncus, malesuada augue in, fringilla metus. Mauris
+                      vestibulum tincidunt dui. Nullam eget est viverra, mattis
+                      velit ac, dignissim massa. Maecenas magna ipsum, lobortis
+                      non rutrum ac, aliquamat risus.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseFive"
+                    aria-expanded="false"
+                    aria-controls="flush-collapseFive"
+                  >
+                    <span>05</span>Lorem ipsum dolor sit amet
+                  </button>
+                </h2>
+                <div
+                  id="flush-collapseFive"
+                  class="accordion-collapse collapse"
+                  data-bs-parent="#accordionFlushExample"
+                >
+                  <div class="accordion-body">
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Donec et ultricies risus, sit amet malesuada ligula.
+                      Vivamus sed arcu ut tortor consectetur tincidunt sed a
+                      nisi. Pellentesque eget aliquet velit, in gravida lorem.
+                      Vivamu tincidunt justo nisi, accumsan rutrum libero
+                      lacinia non. Praesent eget imperdiet orci. In scelerisque
+                      nisl rhoncus, malesuada augue in, fringilla metus. Mauris
+                      vestibulum tincidunt dui. Nullam eget est viverra, mattis
+                      velit ac, dignissim massa. Maecenas magna ipsum, lobortis
+                      non rutrum ac, aliquamat risus.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- FAQ Section HTML End -->
+    </main>
+
+    <!-- Main Part HTML End -->
+
+    <!-- Footer Part HTML Start -->
+
+    <footer id="Footer">
+      <div class="footer-wrapper">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="footer-about">
+                <a href="#">Operák na klik</a>
+                <ul class="pt-4">
+                  <li>
+                    <a href="#">Operativní leasingy.</a>
+                  </li>
+                  <li>
+                    <a href="#">Všechny.</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="footer-menu-container d-none d-md-flex">
+                <div class="footer-menu">
+                  <h6>O nás</h6>
+                  <ul>
+                    <li><a href="#">O nás</a></li>
+                    <li><a href="#">Jak to funguje</a></li>
+                    <li><a href="#">Pro media</a></li>
+                    <li><a href="#">Kariéra</a></li>
+                  </ul>
+                </div>
+                <div class="footer-menu">
+                  <h6>Info</h6>
+                  <ul>
+                    <li><a href="#">Obchodní podmínky</a></li>
+                    <li><a href="#">Partneři</a></li>
+                    <li><a href="#">Pomoc</a></li>
+                  </ul>
+                </div>
+                <div class="footer-menu">
+                  <h6>Kontakt</h6>
+                  <ul>
+                    <li><a href="#">Email</a></li>
+                    <li><a href="#">Telefon</a></li>
+                    <li><a href="#">Další kontakty</a></li>
+                  </ul>
+                </div>
+              </div>
+
+              <!-- Mobile Footer Menu Accordion -->
+
+              <div
+                class="accordion footer-accordion accordion-flush d-md-none"
+                id="accordionFlushExample"
+              >
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#flush-collapseFooterOne"
+                      aria-expanded="false"
+                      aria-controls="flush-collapseFooterOne"
+                    >
+                      O nás
+                    </button>
+                  </h2>
+                  <div
+                    id="flush-collapseFooterOne"
+                    class="accordion-collapse collapse"
+                    data-bs-parent="#accordionFlushExample"
+                  >
+                    <div class="accordion-body">
+                      <div class="footer-menu">
+                        <ul>
+                          <li><a href="#">O nás</a></li>
+                          <li><a href="#">Jak to funguje</a></li>
+                          <li><a href="#">Pro media</a></li>
+                          <li><a href="#">Kariéra</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#flush-collapseFooterTwo"
+                      aria-expanded="false"
+                      aria-controls="flush-collapseFooterTwo"
+                    >
+                      Info
+                    </button>
+                  </h2>
+                  <div
+                    id="flush-collapseFooterTwo"
+                    class="accordion-collapse collapse"
+                    data-bs-parent="#accordionFlushExample"
+                  >
+                    <div class="accordion-body">
+                      <div class="footer-menu">
+                        <ul>
+                          <li><a href="#">Obchodní podmínky</a></li>
+                          <li><a href="#">Partneři</a></li>
+                          <li><a href="#">Pomoc</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#flush-collapseFooterThree"
+                      aria-expanded="false"
+                      aria-controls="flush-collapseFooterThree"
+                    >
+                      Kontakt
+                    </button>
+                  </h2>
+                  <div
+                    id="flush-collapseFooterThree"
+                    class="accordion-collapse collapse"
+                    data-bs-parent="#accordionFlushExample"
+                  >
+                    <div class="accordion-body">
+                      <ul>
+                        <li><a href="#">Email</a></li>
+                        <li><a href="#">Telefon</a></li>
+                        <li><a href="#">Další kontakty</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <hr />
+          <div class="footer-bottom">
+            <div
+              class="d-lg-flex justify-content-center justify-content-lg-between align-items-center"
+            >
+              <div class="footer-copyright">
+                <p>Copyright © 2021 Robin & Vítek</p>
+              </div>
+              <div class="cookies">
+                <h6>Cookies, GDPR apod <a href="#">Accept</a></h6>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Footer Part HTML End -->
+
+    <!-- JQuery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+
+    <!-- Owl Carousel JS -->
+    <script src="assets/js/owl.carousel.min.js"></script>
+
+    <!-- Bootstrap JavaScript -->
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Custom JavaScript -->
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>
