@@ -1193,3 +1193,132 @@ Details Page CSS
 }
 
 /* Car Details Hero Section CSS End */
+
+/* Car Details Accordion Section CSS Start */
+
+.car-details-accordion-buttons {
+  padding-bottom: 36px;
+}
+
+.nav-pills .nav-link {
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--primary-1, #009dcf);
+  padding: 12px 20px !important;
+  border-radius: 100px;
+}
+
+.nav-pills .nav-link.active {
+  color: var(--white, #fff);
+  background: var(--primary-1, #009dcf);
+}
+
+.car-details-accordion {
+  max-width: 100%;
+}
+
+.car-details-accordion .accordion-item {
+  padding-bottom: 36px !important;
+}
+
+.details-checkbox-box {
+  padding: 12px;
+  margin-top: 15px;
+  background: var(--Neutrals-8, #fcfcfd);
+  border: 1px solid var(--Neutrals-6, #e6e8ec);
+  border-radius: 4px;
+}
+
+.details-checkbox {
+  padding-right: 15px;
+}
+
+.details-checkbox-text {
+  width: 100%;
+  padding-top: 5px;
+}
+
+.details-checkbox-text h6 {
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--neutrals-2, #23262f);
+}
+
+.details-checkbox-text span {
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--neutrals-4, #777e90);
+}
+
+.details-checkbox-text p {
+  font-size: 14px;
+  color: var(--neutrals-4, #777e90);
+  padding-right: 20px;
+}
+
+.accordion.car-details-accordion {
+  padding: 0;
+}
+
+/* Car Details Accordion Section CSS End */
+
+/* Price History Section CSS Start */
+
+.price-history-wrapper {
+  padding-top: 80px;
+}
+
+.price-history-img {
+  padding-top: 20px;
+}
+
+.price-history-img img {
+  max-width: 100%;
+  width: 100%;
+  max-height: 355px;
+  height: 100%;
+}
+
+/* Price History Section CSS End */
+
+/* Car Details Content Section CSS Start */
+
+.car-details-content-wrapper {
+  padding: 16px 0 80px;
+}
+
+.car-details-content-box {
+  max-width: 643px;
+  margin: auto;
+  padding-top: 60px;
+}
+
+.car-details-content-box h2 {
+  position: relative;
+  font-size: 40px;
+  font-weight: 700;
+  letter-spacing: -0.4px;
+  color: var(--neutrals-2, #23262f);
+  padding-bottom: 30px;
+  margin: 0;
+}
+
+.car-details-content-box h2::after {
+  position: absolute;
+  content: "";
+  left: 0;
+  bottom: 0;
+  width: 166px;
+  height: 2px;
+  background: var(--neutrals-6, #e6e8ec);
+}
+
+.car-details-content-box p {
+  font-size: 16px;
+  line-height: 24px;
+  padding-top: 30px;
+  margin-bottom: 0;
+  color: var(--neutrals-4, #777e90);
+}
+
+/* Car Details Content Section CSS End */

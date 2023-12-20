@@ -194,6 +194,409 @@
     <!-- Main Part HTML Start -->
 
     <main>
+      <!-- Car Details Accordion Section HTML Start -->
+
+      <section id="Car-details-accordion">
+        <div class="car-details-accordion-wrapper">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 col-xxl-7">
+                <div class="car-details-accordion-container">
+                  <div class="car-details-accordion-buttons">
+                    <ul
+                      class="d-flex flex-nowrap nav-pills"
+                      id="pills-tab"
+                      role="tablist"
+                    >
+                      <li class="nav-item" role="presentation">
+                        <button
+                          class="nav-link active"
+                          id="pills-preferred-parameters-tab"
+                          data-bs-toggle="pill"
+                          data-bs-target="#pills-preferred-parameters"
+                          type="button"
+                          role="tab"
+                          aria-controls="pills-preferred-parameters"
+                          aria-selected="false"
+                        >
+                          Preferované parametry
+                        </button>
+                      </li>
+                      <li class="nav-item" role="presentation">
+                        <button
+                          class="nav-link"
+                          id="pills-technical-specifications-tab"
+                          data-bs-toggle="pill"
+                          data-bs-target="#pills-technical-specifications"
+                          type="button"
+                          role="tab"
+                          aria-controls="pills-technical-specifications"
+                          aria-selected="false"
+                        >
+                          Technické specifikace
+                        </button>
+                      </li>
+                      <li class="nav-item" role="presentation">
+                        <button
+                          class="nav-link"
+                          id="pills-basic-equipment-tab"
+                          data-bs-toggle="pill"
+                          data-bs-target="#pills-basic-equipment"
+                          type="button"
+                          role="tab"
+                          aria-controls="pills-basic-equipment"
+                          aria-selected="true"
+                        >
+                          Základní výbava
+                        </button>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="tab-content" id="pills-tabContent">
+                    <div
+                      class="tab-pane fade show active"
+                      id="pills-preferred-parameters"
+                      role="tabpanel"
+                      aria-labelledby="pills-preferred-parameters-tab"
+                      tabindex="0"
+                    >
+                      <div
+                        class="accordion car-details-accordion filter-accordion accordion-flush"
+                        id="accordionFlushExample"
+                      >
+                        <div class="accordion-item">
+                          <h2 class="accordion-header">
+                            <button
+                              class="accordion-button collapsed"
+                              type="button"
+                              data-bs-toggle="collapse"
+                              data-bs-target="#flush-collapseDetailsOne"
+                              aria-expanded="false"
+                              aria-controls="flush-collapseDetailsOne"
+                            >
+                              Verze výbavy
+                            </button>
+                          </h2>
+                          <div
+                            id="flush-collapseDetailsOne"
+                            class="accordion-collapse collapse"
+                            data-bs-parent="#accordionFlushExample"
+                          >
+                            <div class="accordion-body">
+                              <div class="details-checkbox-box d-flex">
+                                <div class="details-checkbox">
+                                  <input type="checkbox" />
+                                </div>
+                                <div class="details-checkbox-text">
+                                  <div
+                                    class="w-100 d-flex justify-content-between"
+                                  >
+                                    <h6>Plecháče only</h6>
+                                    <span>0 Kč</span>
+                                  </div>
+                                  <p>
+                                    Duis nunc odio, aliquet fermentum dictum ac,
+                                    cursus at eros. Pellentesque habitant morbi
+                                    tristique senectus et netus et malesuada
+                                    fames ac turpis.
+                                  </p>
+                                </div>
+                              </div>
+                              <div class="details-checkbox-box d-flex">
+                                <div class="details-checkbox">
+                                  <input type="checkbox" />
+                                </div>
+                                <div class="details-checkbox-text">
+                                  <div
+                                    class="w-100 d-flex justify-content-between"
+                                  >
+                                    <h6>Ultra Premium</h6>
+                                    <span>1 780 Kč</span>
+                                  </div>
+                                  <p>
+                                    Duis nunc odio, aliquet fermentum dictum ac,
+                                    cursus at eros. Pellentesque habitant morbi
+                                    tristique senectus et netus et malesuada
+                                    fames ac turpis.
+                                  </p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                          <h2 class="accordion-header">
+                            <button
+                              class="accordion-button collapsed"
+                              type="button"
+                              data-bs-toggle="collapse"
+                              data-bs-target="#flush-collapseDetailsTwo"
+                              aria-expanded="false"
+                              aria-controls="flush-collapseDetailsTwo"
+                            >
+                              Motor
+                            </button>
+                          </h2>
+                          <div
+                            id="flush-collapseDetailsTwo"
+                            class="accordion-collapse collapse"
+                            data-bs-parent="#accordionFlushExample"
+                          >
+                            <div class="accordion-body">
+                              <div class="details-checkbox-box d-flex">
+                                <div class="details-checkbox">
+                                  <input type="checkbox" />
+                                </div>
+                                <div class="details-checkbox-text">
+                                  <div
+                                    class="w-100 d-flex justify-content-between"
+                                  >
+                                    <h6>1.4 HTP Nafta</h6>
+                                    <span>0 Kč</span>
+                                  </div>
+                                  <p>výkon apod.</p>
+                                </div>
+                              </div>
+                              <div class="details-checkbox-box d-flex">
+                                <div class="details-checkbox">
+                                  <input type="checkbox" />
+                                </div>
+                                <div class="details-checkbox-text">
+                                  <div
+                                    class="w-100 d-flex justify-content-between"
+                                  >
+                                    <h6>5.0 V8 benzin</h6>
+                                    <span>0 Kč</span>
+                                  </div>
+                                  <p>výkon apod.</p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                          <h2 class="accordion-header">
+                            <button
+                              class="accordion-button collapsed"
+                              type="button"
+                              data-bs-toggle="collapse"
+                              data-bs-target="#flush-collapseDetailsThree"
+                              aria-expanded="false"
+                              aria-controls="flush-collapseDetailsThree"
+                            >
+                              Převodovka
+                            </button>
+                          </h2>
+                          <div
+                            id="flush-collapseDetailsThree"
+                            class="accordion-collapse collapse"
+                            data-bs-parent="#accordionFlushExample"
+                          >
+                            <div class="accordion-body">
+                              <div class="details-checkbox-box d-flex">
+                                <div class="details-checkbox">
+                                  <input type="checkbox" />
+                                </div>
+                                <div class="details-checkbox-text">
+                                  <div
+                                    class="w-100 d-flex justify-content-between"
+                                  >
+                                    <h6>5st. manuální</h6>
+                                    <span>0 Kč</span>
+                                  </div>
+                                  <p>popis</p>
+                                </div>
+                              </div>
+                              <div class="details-checkbox-box d-flex">
+                                <div class="details-checkbox">
+                                  <input type="checkbox" />
+                                </div>
+                                <div class="details-checkbox-text">
+                                  <div
+                                    class="w-100 d-flex justify-content-between"
+                                  >
+                                    <h6>10st. automatická</h6>
+                                    <span>0 Kč</span>
+                                  </div>
+                                  <p>popis</p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                          <h2 class="accordion-header">
+                            <button
+                              class="accordion-button collapsed"
+                              type="button"
+                              data-bs-toggle="collapse"
+                              data-bs-target="#flush-collapseDetailsFour"
+                              aria-expanded="false"
+                              aria-controls="flush-collapseDetailsFour"
+                            >
+                              Kola
+                            </button>
+                          </h2>
+                          <div
+                            id="flush-collapseDetailsFour"
+                            class="accordion-collapse collapse"
+                            data-bs-parent="#accordionFlushExample"
+                          >
+                            <div class="accordion-body">
+                              <div
+                                class="filter-accordion-tags d-flex flex-wrap gap-2 pt-1"
+                              >
+                                <span>automatická</span>
+                                <span>manuální</span>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                          <h2 class="accordion-header">
+                            <button
+                              class="accordion-button collapsed"
+                              type="button"
+                              data-bs-toggle="collapse"
+                              data-bs-target="#flush-collapseDetailsFive"
+                              aria-expanded="false"
+                              aria-controls="flush-collapseDetailsFive"
+                            >
+                              Rezerva
+                            </button>
+                          </h2>
+                          <div
+                            id="flush-collapseDetailsFive"
+                            class="accordion-collapse collapse"
+                            data-bs-parent="#accordionFlushExample"
+                          >
+                            <div class="accordion-body">
+                              <p>something</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                          <h2 class="accordion-header">
+                            <button
+                              class="accordion-button collapsed"
+                              type="button"
+                              data-bs-toggle="collapse"
+                              data-bs-target="#flush-collapseDetailsSix"
+                              aria-expanded="false"
+                              aria-controls="flush-collapseDetailsSix"
+                            >
+                              Interiérová výbava
+                            </button>
+                          </h2>
+                          <div
+                            id="flush-collapseDetailsSix"
+                            class="accordion-collapse collapse"
+                            data-bs-parent="#accordionFlushExample"
+                          >
+                            <div class="accordion-body">
+                              <p>something</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                          <h2 class="accordion-header">
+                            <button
+                              class="accordion-button collapsed"
+                              type="button"
+                              data-bs-toggle="collapse"
+                              data-bs-target="#flush-collapseDetailsSeven"
+                              aria-expanded="false"
+                              aria-controls="flush-collapseDetailsSeven"
+                            >
+                              Exteriérová výbava
+                            </button>
+                          </h2>
+                          <div
+                            id="flush-collapseDetailsSeven"
+                            class="accordion-collapse collapse"
+                            data-bs-parent="#accordionFlushExample"
+                          >
+                            <div class="accordion-body">
+                              <p>something</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                          <h2 class="accordion-header">
+                            <button
+                              class="accordion-button collapsed"
+                              type="button"
+                              data-bs-toggle="collapse"
+                              data-bs-target="#flush-collapseDetailsEight"
+                              aria-expanded="false"
+                              aria-controls="flush-collapseDetailsEight"
+                            >
+                              Servis
+                            </button>
+                          </h2>
+                          <div
+                            id="flush-collapseDetailsEight"
+                            class="accordion-collapse collapse"
+                            data-bs-parent="#accordionFlushExample"
+                          >
+                            <div class="accordion-body">
+                              <p>something</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                          <h2 class="accordion-header">
+                            <button
+                              class="accordion-button collapsed"
+                              type="button"
+                              data-bs-toggle="collapse"
+                              data-bs-target="#flush-collapseDetailsNine"
+                              aria-expanded="false"
+                              aria-controls="flush-collapseDetailsNine"
+                            >
+                              Rozšířená pojistka
+                            </button>
+                          </h2>
+                          <div
+                            id="flush-collapseDetailsNine"
+                            class="accordion-collapse collapse"
+                            data-bs-parent="#accordionFlushExample"
+                          >
+                            <div class="accordion-body">
+                              <p>something</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="tab-pane fade"
+                      id="pills-technical-specifications"
+                      role="tabpanel"
+                      aria-labelledby="pills-technical-specifications-tab"
+                      tabindex="0"
+                    >
+                      Technické specifikace Content Goes There.
+                    </div>
+                    <div
+                      class="tab-pane fade"
+                      id="pills-basic-equipment"
+                      role="tabpanel"
+                      aria-labelledby="pills-basic-equipment-tab"
+                      tabindex="0"
+                    >
+                      Základní výbava Content Goes There.
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Car Details Accordion Section HTML End -->
+
       <!-- Related Offers Section HTML Start -->
 
       <section id="Related-offers">
@@ -396,6 +799,71 @@
       </section>
 
       <!-- Partners Section HTML End -->
+
+      <!-- Price History Section HTML Start -->
+
+      <section id="Price-history">
+        <div class="price-history-wrapper">
+          <div class="container">
+            <div class="price-history-title">
+              <h3 class="headline-4">Historie ceny</h3>
+            </div>
+            <div class="price-history-img">
+              <img
+                src="assets/images/price-history-img.png"
+                alt="price-history-img"
+              />
+            </div>
+            <div class="price-history-img">
+              <img
+                src="assets/images/price-history-img.png"
+                alt="price-history-img"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Price History Section HTML End -->
+
+      <!-- Car Details Content Section HTML Start -->
+
+      <section id="Car-details-content">
+        <div class="car-details-content-wrapper">
+          <div class="container">
+            <div class="car-details-content-box">
+              <h2>Seo headline</h2>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
+                et ultricies risus, sit amet malesuada ligula. Vivamus sed arcu
+                ut tortor consectetur tincidunt sed a nisi. Pellentesque eget
+                aliquet velit, in gravida lorem. Vivamus tincidunt justo nisi,
+                accumsan rutrum libero lacinia non. Praesent eget imperdiet
+                orci. In scelerisque nisl rhoncus, malesuada augue in, fringilla
+                metus. Mauris vestibulum tincidunt dui. Nullam eget est viverra,
+                mattis velit ac, dignissim massa. Maecenas magna ipsum, lobortis
+                non rutrum ac, aliquam at risus.
+              </p>
+            </div>
+            <div class="car-details-content-box">
+              <h2>Lorem ipsum</h2>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
+                et ultricies risus, sit amet malesuada ligula. Vivamus sed arcu
+                ut tortor consectetur tincidunt sed a nisi. Pellentesque eget
+                aliquet velit, in gravida lorem. Vivamus tincidunt justo nisi,
+                accumsan rutrum libero lacinia non. Praesent eget imperdiet
+                orci. In scelerisque nisl rhoncus, malesuada augue in, fringilla
+                metus. Mauris vestibulum tincidunt dui. Nullam eget est viverra,
+                mattis velit ac, dignissim massa. Maecenas magna ipsum, lobortis
+                non rutrum ac, aliquam at risus.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Car Details Content Section HTML End -->
 
       <!-- FAQ Section HTML Start -->
 
