@@ -13,6 +13,12 @@
     font-size: 52px;
     line-height: 60px;
   }
+
+  /* Contact Page */
+
+  .contact-info-card {
+    padding: 0 50px;
+  }
 }
 
 /* Min Width 769px and Max Width 992px */
@@ -32,6 +38,16 @@
   /* Extract Page Responsive CSS */
 
   .extract-hero-title h2 {
+    font-size: 36px;
+  }
+
+  /* Contact Page */
+
+  .contact-info-card {
+    padding: 0 50px;
+  }
+
+  .contact-top h2 {
     font-size: 36px;
   }
 }
@@ -118,8 +134,8 @@
   }
 
   .all-filters-btn > button {
-    position: absolute;
-    top: 640px;
+    position: fixed;
+    bottom: 15px;
     left: 50%;
     transform: translate(-50%);
     z-index: 99;
@@ -142,6 +158,36 @@
   .showing-product,
   .product-load-more-btn {
     text-align: center;
+  }
+
+  /* Contact Page Responsive CSS */
+
+  .contact-wrapper {
+    padding: 32px 0;
+  }
+
+  .contact-info-card {
+    text-align: center;
+    padding: 24px 0;
+  }
+
+  .contact-info {
+    padding: 0;
+  }
+
+  .contact-info-card::after {
+    top: initial;
+    bottom: 0;
+    width: 100%;
+    height: 1px;
+  }
+
+  .contact-form-wrapper {
+    padding-top: 24px;
+  }
+
+  .contact-form-container {
+    padding-top: 40px;
   }
 }
 

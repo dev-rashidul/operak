@@ -880,3 +880,136 @@ Extract Page CSS
   font-size: 12px;
   padding-left: 5px;
 }
+
+/* ============***============
+Contact Page CSS
+============***============ */
+
+/* Contact Section CSS Start */
+
+.contact-wrapper {
+  padding: 48px 0 80px;
+}
+
+.contact-top h2 {
+  color: var(--neutrals-2, #23262f);
+}
+
+.contact-info {
+  padding-top: 40px;
+}
+
+.contact-info-card {
+  position: relative;
+  padding: 0 110px;
+}
+
+.contact-info-card::after {
+  position: absolute;
+  content: "";
+  top: 0;
+  right: 0;
+  width: 1px;
+  height: 100%;
+  background: var(--neutrals-6, #e6e8ec);
+}
+
+.contact-info-card:last-child::after {
+  width: 0;
+}
+
+.contact-info-card i {
+  color: var(--primary-1);
+}
+
+.contact-info-card h6 {
+  font-size: 14px;
+  font-weight: 400;
+  color: var(--neutrals-4, #777e90);
+  padding: 10px 0;
+  margin-bottom: 0;
+}
+
+.contact-info-card ul li {
+  padding-bottom: 8px;
+}
+
+.contact-info-card ul li,
+.contact-info-card a {
+  font-size: 14px;
+  color: var(--neutrals-2, #23262f);
+}
+
+.contact-form-wrapper {
+  max-width: 545px;
+  margin: auto;
+  padding-top: 60px;
+}
+
+.contact-form-wrapper h2 {
+  font-size: 40px;
+  font-weight: 700;
+  text-align: center;
+  letter-spacing: -0.4px;
+  color: var(--neutrals-2, #23262f);
+  margin-bottom: 0;
+}
+
+.contact-form-container {
+  padding-top: 60px;
+}
+
+.contact-form-field label {
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: var(--neutrals-5, #b1b5c3);
+  padding-bottom: 12px;
+}
+
+.contact-form-field input,
+.contact-form-field textarea {
+  width: 100%;
+  padding: 12px 16px;
+  margin-bottom: 20px;
+  border: 1px solid var(--Neutrals-5, #b1b5c3);
+  border-radius: 6px;
+}
+
+.contact-form-field input:focus,
+.contact-form-field textarea:focus {
+  outline: 0;
+}
+
+.contact-form ::placeholder {
+  font-size: 14px;
+  color: var(--neutrals-4, #777e90);
+}
+
+.contact-submit-btn input {
+  width: 100%;
+  font-size: 16px;
+  font-weight: 700;
+  padding: 16px;
+  color: var(--neutrals-8, #fcfcfd);
+  background: var(--Primary-1, #009dcf);
+  border: none;
+  border-radius: 100px;
+}
+
+.contact-img {
+  padding-top: 64px;
+}
+
+.contact-img img {
+  max-width: 100%;
+  width: 100%;
+  max-height: 545px;
+  height: 100%;
+}
+
+/* Contact Section CSS End */
+
+/* ============***============
+Details Page CSS
+============***============ */
