@@ -1013,3 +1013,183 @@ Contact Page CSS
 /* ============***============
 Details Page CSS
 ============***============ */
+
+/* Car Details Hero Section CSS Start */
+
+.details-wrapper {
+  padding: 48px 0 36px;
+}
+
+.details-content .filtered-tag span {
+  font-weight: 500;
+  padding-right: 16px;
+}
+
+.details-content h2 {
+  color: var(--neutrals-2, #23262f);
+  padding-right: 10px;
+  margin-bottom: 0;
+}
+
+.details-content > span {
+  font-size: 24px;
+  letter-spacing: -0.24px;
+  color: var(--neutrals-3, #353945);
+}
+
+.car-details-slider {
+  padding-top: 32px;
+}
+
+.car-details-slide-img img {
+  max-height: 530px;
+  border-radius: 8px;
+}
+
+.car-details-small-slider {
+  padding-top: 12px;
+}
+
+.car-details-small-slide-img img {
+  max-height: 100px;
+  border-radius: 8px;
+}
+
+.car-details-slider .owl-nav,
+.car-details-small-slider .owl-nav {
+  display: block !important;
+}
+
+.car-details-slider .owl-nav {
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+}
+
+.car-details-small-slider .owl-nav {
+  width: 100%;
+  position: absolute;
+  top: 15%;
+}
+
+.car-details-slider .owl-prev i,
+.car-details-small-slider .owl-prev i {
+  position: absolute;
+  left: 20px;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--neutrals-2, #23262f);
+  background: #f4f5f6d4;
+  border-radius: 100px;
+}
+
+.car-details-slider .owl-next i,
+.car-details-small-slider .owl-next i {
+  position: absolute;
+  right: 20px;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--neutrals-2, #23262f);
+  background: #f4f5f6d4;
+  border-radius: 100px;
+}
+
+.car-details-tags {
+  position: absolute;
+  top: 20px;
+  left: 24px;
+}
+
+.novelty span,
+.best-price span {
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 8px;
+  margin-right: 20px;
+  color: var(--neutrals-8, #fcfcfd);
+  background: var(--Primary-2, #7c33f4);
+  border-radius: 4px;
+}
+
+.best-price span {
+  background: var(--primary-1, #009dcf);
+}
+
+.car-details-info-wrapper {
+  padding: 32px 24px 20px;
+  margin: 32px 0 0 80px;
+  background: rgba(0, 175, 18, 0.05);
+  border: 1px solid var(--primary-4, #00af12);
+  border-radius: 16px;
+}
+
+.car-details-info h2 {
+  font-size: 40px;
+  font-weight: 700;
+  text-align: center;
+  letter-spacing: -0.4px;
+  color: var(--primary-4, #00af12);
+  margin-bottom: 12px;
+}
+
+.car-details-select select {
+  width: 100%;
+  font-size: 14px;
+  font-weight: 500;
+  padding: 16px 8px 16px 16px;
+  margin-top: 20px;
+  color: var(--neutrals-2, #23262f);
+  background: var(--neutrals-White, #fff);
+  border: 1px solid var(--neutrals-6, #e6e8ec);
+  border-radius: 6px;
+}
+
+.car-details-select select:focus {
+  outline: 0;
+}
+
+.car-details-info h6 {
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--neutrals-2, #23262f);
+  margin: 35px 0 10px;
+}
+
+.car-details-info ul li {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 24px;
+  color: var(--neutrals-4, #777e90);
+}
+
+.best-offer-btn a {
+  display: block;
+  width: 100%;
+  font-size: 16px;
+  font-weight: 700;
+  text-align: center;
+  padding: 16px;
+  margin-top: 36px;
+  color: var(--neutrals-8, #fcfcfd);
+  background: var(--Primary-4, #00af12);
+  border-radius: 100px;
+}
+
+.car-details-info span {
+  display: block;
+  font-size: 12px;
+  text-align: center;
+  padding-top: 40px;
+  color: var(--neutrals-5, #b1b5c3);
+}
+
+/* Car Details Hero Section CSS End */

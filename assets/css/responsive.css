@@ -160,6 +160,13 @@
     text-align: center;
   }
 
+  /* Details Page Responsive CSS */
+
+  .car-details-slider .owl-nav,
+  .car-details-small-slider .owl-nav {
+    display: none !important;
+  }
+
   /* Contact Page Responsive CSS */
 
   .contact-wrapper {
