@@ -228,4 +228,10 @@
   .contact-form-container {
     padding-top: 40px;
   }
+
+  /* Typography Page Responsive CSS */
+
+  .typography-wrapper {
+    padding: 30px 0 40px;
+  }
 }

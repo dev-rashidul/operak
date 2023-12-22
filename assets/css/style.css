@@ -794,6 +794,22 @@ Extract Page CSS
   border: 1px solid var(--primary-1, #009dcf);
 }
 
+.toggle-btn label {
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--neutrals-2, #23262f);
+  padding: 4px 16px;
+  margin-right: 5px;
+  border: 1px solid var(--neutrals-5, #b1b5c3) !important;
+  border-radius: 6px;
+}
+
+.btn-check:checked + .btn {
+  color: var(--white, #fff);
+  background: var(--primary-1, #009dcf);
+  border: 1px solid var(--primary-1, #009dcf) !important;
+}
+
 .offcanvas-btn a {
   display: block;
   width: 100%;
@@ -1256,6 +1272,43 @@ Details Page CSS
   padding-right: 20px;
 }
 
+.details-checkbox input[type="checkbox"] {
+  position: relative;
+  border: 1px solid var(--neutrals-4, #777e90);
+  border-radius: 4px;
+  background: none;
+  cursor: pointer;
+  line-height: 0;
+  margin: 0 0.6em 0 0;
+  outline: 0;
+  padding: 0 !important;
+  vertical-align: text-top;
+  width: 29px;
+  height: 28px;
+  -webkit-appearance: none;
+  opacity: 0.5;
+}
+
+.details-checkbox input[type="checkbox"]:checked {
+  background-color: var(--primary-4, #00af12);
+  border-color: #fff;
+  opacity: 1;
+}
+
+.details-checkbox input[type="checkbox"]:before {
+  content: "";
+  position: absolute;
+  right: 45%;
+  top: 50%;
+  width: 7px;
+  height: 12px;
+  border: solid #fff;
+  border-width: 0 2px 2px 0;
+  margin: -1px -1px 0 -1px;
+  transform: rotate(45deg) translate(-50%, -50%);
+  z-index: 2;
+}
+
 .accordion.car-details-accordion {
   padding: 0;
 }
@@ -1322,3 +1375,58 @@ Details Page CSS
 }
 
 /* Car Details Content Section CSS End */
+
+/* ==========***==========
+Text Page CSS
+==========***========== */
+
+.typography-wrapper {
+  padding: 48px 0 80px;
+}
+
+.typography-container {
+  max-width: 643px;
+  margin: auto;
+}
+
+.work-content-box h2 {
+  color: var(--neutrals-2, #23262f);
+  margin-bottom: 20px;
+}
+
+.typography-content h4 {
+  font-weight: 700;
+  padding-top: 30px;
+  margin-bottom: 0;
+}
+
+.typography-content h6 {
+  font-weight: 500;
+  padding: 30px 0;
+  margin-bottom: 0;
+}
+
+.typography-content p {
+  color: var(--neutrals-4, #777e90);
+  margin-bottom: 0;
+}
+
+.typography-content p a {
+  color: var(--primary-1, #009dcf);
+  text-decoration: underline;
+}
+
+.typography-content ul {
+  padding-bottom: 22px;
+}
+
+.typography-content ul li {
+  font-size: 16px;
+  color: var(--neutrals-4, #777e90);
+  padding-bottom: 10px;
+}
+
+.typography-content ul li i {
+  color: var(--primary-4, #00af12);
+  padding-right: 12px;
+}
