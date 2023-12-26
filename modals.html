@@ -1,0 +1,925 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Operak - Modals</title>
+
+    <!-- Font Awesome CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+
+    <!-- Responsive CSS -->
+    <link rel="stylesheet" href="assets/css/responsive.css" />
+  </head>
+  <body>
+    <!-- Header Part HTML Start -->
+
+    <header>
+      <!-- Navigation Section HTML Start -->
+
+      <nav id="Navigation">
+        <div class="navigation-wrapper">
+          <div class="container">
+            <div
+              class="nav-container d-flex justify-content-between align-items-center"
+            >
+              <div class="logo">
+                <a href="#">OperakNaKlik.cz</a>
+              </div>
+              <div class="main-menu">
+                <ul class="d-flex align-items-center">
+                  <li><a href="#">Najděte mi auto</a></li>
+                  <li><a href="#">Nabídka vozů</a></li>
+                  <li><a href="#">Jak to funguje</a></li>
+                  <li><a href="#">Nejčastější dotazy</a></li>
+                  <li class="d-none d-lg-block"><a href="#">Kontakt</a></li>
+                </ul>
+                <div class="contact-btn d-lg-none"><a href="#">Kontakt</a></div>
+              </div>
+              <div id="bars-icon">
+                <img src="assets/images/burger-icon.svg" alt="burger-icon" />
+              </div>
+              <div id="cross-icon">
+                <img src="assets/images/cross-icon.svg" alt="cross-icon" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      <!-- Navigation Section HTML End -->
+    </header>
+
+    <!-- Header Part HTML End -->
+
+    <!-- Modals Section HTML Start -->
+
+    <div class="container py-80">
+      <!-- karoserie modal -->
+
+      <!-- Button trigger modal -->
+      <button
+        type="button"
+        class="btn btn-primary"
+        data-bs-toggle="modal"
+        data-bs-target="#karoserieModal"
+      >
+        karoserie Modal
+      </button>
+
+      <!-- Modal -->
+      <div
+        class="modal fade"
+        id="karoserieModal"
+        tabindex="-1"
+        aria-labelledby="karoserieModalLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <div class="close-btn">
+              <button data-bs-dismiss="modal">
+                <i class="fa-solid fa-times"></i>
+              </button>
+            </div>
+            <div class="modal-body">
+              <div class="modal-top text-center">
+                <h3 class="headline-4">
+                  <span>1/6</span> Jakou karoserii hledáte
+                </h3>
+                <p>Můžete vybrat více nebo žádnou</p>
+              </div>
+              <div class="modal-container karoseri-modal-container">
+                <div class="cars-body-card text-center">
+                  <input
+                    type="checkbox"
+                    class="btn-check"
+                    id="btn-check"
+                    autocomplete="off"
+                  />
+                  <label class="btn" for="btn-check">
+                    <img src="assets/images/sedan-car.svg" alt="sedan-car" />
+                    <img
+                      class="cars-body-img-white"
+                      src="assets/images/sedan-car-white.svg"
+                      alt="sedan-car-white"
+                    />
+                    <h6 class="body-2">Sedan</h6></label
+                  >
+                </div>
+                <div class="cars-body-card text-center">
+                  <input
+                    type="checkbox"
+                    class="btn-check"
+                    id="btn-check-2"
+                    autocomplete="off"
+                    checked
+                  />
+                  <label class="btn" for="btn-check-2"
+                    ><img src="assets/images/sub-car.svg" alt="sub-car" />
+                    <img
+                      class="cars-body-img-white"
+                      src="assets/images/sub-car-white.svg"
+                      alt="sub-car-white"
+                    />
+                    <h6 class="body-2">SUV</h6></label
+                  >
+                </div>
+                <div class="cars-body-card text-center">
+                  <input
+                    type="checkbox"
+                    class="btn-check"
+                    id="btn-check-3"
+                    autocomplete="off"
+                  />
+                  <label class="btn" for="btn-check-3">
+                    <img src="assets/images/kombi-car.svg" alt="kombi-car" />
+                    <img
+                      class="cars-body-img-white"
+                      src="assets/images/kombi-car-white.svg"
+                      alt="kombi-car-white"
+                    />
+                    <h6 class="body-2">Kombi</h6></label
+                  >
+                </div>
+                <div class="cars-body-card text-center">
+                  <input
+                    type="checkbox"
+                    class="btn-check"
+                    id="btn-check-4"
+                    autocomplete="off"
+                  />
+                  <label class="btn" for="btn-check-4"
+                    ><img src="assets/images/kabrio-car.svg" alt="kabrio-car" />
+                    <img
+                      class="cars-body-img-white"
+                      src="assets/images/kabrio-car-white.svg"
+                      alt="kabrio-car-white"
+                    />
+                    <h6 class="body-2">Kabrio</h6></label
+                  >
+                </div>
+                <div class="cars-body-card text-center">
+                  <input
+                    type="checkbox"
+                    class="btn-check"
+                    id="btn-check-5"
+                    autocomplete="off"
+                  />
+                  <label class="btn" for="btn-check-5"
+                    ><img src="assets/images/kupe-car.svg" alt="kupe-car" />
+                    <img
+                      class="cars-body-img-white"
+                      src="assets/images/kupe-car-white.svg"
+                      alt="kupe-car-white"
+                    />
+                    <h6 class="body-2">Kupé</h6></label
+                  >
+                </div>
+                <div class="cars-body-card text-center">
+                  <input
+                    type="checkbox"
+                    class="btn-check"
+                    id="btn-check-6"
+                    autocomplete="off"
+                  />
+                  <label class="btn" for="btn-check-6"
+                    ><img src="assets/images/mpv-car.svg" alt="mpv-car" />
+                    <img
+                      class="cars-body-img-white"
+                      src="assets/images/mpv-car-white.svg"
+                      alt="mpv-car-white"
+                    />
+                    <h6 class="body-2">MPV</h6></label
+                  >
+                </div>
+                <div class="cars-body-card text-center">
+                  <input
+                    type="checkbox"
+                    class="btn-check"
+                    id="btn-check-7"
+                    autocomplete="off"
+                  />
+                  <label class="btn" for="btn-check-7"
+                    ><img src="assets/images/pickup-car.svg" alt="pickup-car" />
+                    <img
+                      class="cars-body-img-white"
+                      src="assets/images/pickup-car-white.svg"
+                      alt="pickup-car-white"
+                    />
+                    <h6 class="body-2">Pickup</h6></label
+                  >
+                </div>
+                <div class="cars-body-card text-center">
+                  <input
+                    type="checkbox"
+                    class="btn-check"
+                    id="btn-check-8"
+                    autocomplete="off"
+                  />
+                  <label class="btn" for="btn-check-8"
+                    ><img
+                      src="assets/images/dodavka-car.svg"
+                      alt="dodávka-car"
+                    />
+                    <img
+                      class="cars-body-img-white"
+                      src="assets/images/dodavka-car-white.svg"
+                      alt="dodávka-car-white"
+                    />
+                    <h6 class="body-2">Dodávka</h6></label
+                  >
+                </div>
+                <div class="cars-body-card text-center d-lg-none">
+                  <input
+                    type="checkbox"
+                    class="btn-check"
+                    id="btn-check-9"
+                    autocomplete="off"
+                  />
+                  <label class="btn" for="btn-check-9"
+                    ><img src="assets/images/sedan-car.svg" alt="sedan-car" />
+                    <img
+                      class="cars-body-img-white"
+                      src="assets/images/sedan-car-white.svg"
+                      alt="sedan-car-white"
+                    />
+                    <h6 class="body-2">Sedan</h6></label
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <p>Parametrům odpovídá 354 vozů</p>
+              <div class="modal-footer-buttons d-flex align-items-center">
+                <div class="skip-btn outline-btn">
+                  <a href="#">Přeskočit</a>
+                </div>
+                <div class="continue-btn fill-btn">
+                  <a href="#">Pokračovat</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Palivo modal -->
+
+      <!-- Button trigger modal -->
+      <button
+        type="button"
+        class="btn btn-info"
+        data-bs-toggle="modal"
+        data-bs-target="#palivoModal"
+      >
+        Palivo Modal
+      </button>
+
+      <!-- Modal -->
+      <div
+        class="modal fade"
+        id="palivoModal"
+        tabindex="-1"
+        aria-labelledby="palivoModalLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <div class="close-btn">
+              <button data-bs-dismiss="modal">
+                <i class="fa-solid fa-times"></i>
+              </button>
+            </div>
+            <div class="modal-body">
+              <div class="modal-top text-center">
+                <h3 class="headline-4">
+                  <span>2/6</span> Jaké palivo preferujete?
+                </h3>
+                <p>Můžete vybrat více nebo žádnou</p>
+              </div>
+              <div class="modal-container palivo-modal-container">
+                <div class="option-select-btn">
+                  <input
+                    type="checkbox"
+                    class="btn-check"
+                    id="btn-check-palivo1"
+                    autocomplete="off"
+                  />
+                  <label class="btn" for="btn-check-palivo1"> Benzin </label>
+                </div>
+                <div class="option-select-btn">
+                  <input
+                    type="checkbox"
+                    class="btn-check"
+                    id="btn-check-palivo2"
+                    autocomplete="off"
+                  />
+                  <label class="btn" for="btn-check-palivo2"> Nafta </label>
+                </div>
+                <div class="option-select-btn">
+                  <input
+                    type="checkbox"
+                    class="btn-check"
+                    id="btn-check-palivo3"
+                    autocomplete="off"
+                  />
+                  <label class="btn" for="btn-check-palivo3"> Hybrid </label>
+                </div>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <p>
+                <a href="#"><i class="fa-solid fa-arrow-left-long"></i></a>
+                Parametrům odpovídá 354 vozů
+              </p>
+              <div class="modal-footer-buttons d-flex align-items-center">
+                <div class="skip-btn outline-btn">
+                  <a href="#">Přeskočit</a>
+                </div>
+                <div class="continue-btn fill-btn">
+                  <a href="#">Pokračovat</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Prevodovka modal -->
+
+      <!-- Button trigger modal -->
+      <button
+        type="button"
+        class="btn btn-dark"
+        data-bs-toggle="modal"
+        data-bs-target="#prevodovkaModal"
+      >
+        Prevodovka Modal
+      </button>
+
+      <!-- Modal -->
+      <div
+        class="modal fade"
+        id="prevodovkaModal"
+        tabindex="-1"
+        aria-labelledby="prevodovkaModalLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <div class="close-btn">
+              <button data-bs-dismiss="modal">
+                <i class="fa-solid fa-times"></i>
+              </button>
+            </div>
+            <div class="modal-body">
+              <div class="modal-top text-center">
+                <h3 class="headline-4">
+                  <span>3/6</span> Jakou převodovku preferujete?
+                </h3>
+                <p>Můžete vybrat více nebo žádnou</p>
+              </div>
+              <div class="modal-container palivo-modal-container">
+                <div class="option-select-btn">
+                  <input
+                    type="checkbox"
+                    class="btn-check"
+                    id="btn-check-prevodovka1"
+                    autocomplete="off"
+                  />
+                  <label class="btn" for="btn-check-prevodovka1">
+                    Automat
+                  </label>
+                </div>
+                <div class="option-select-btn">
+                  <input
+                    type="checkbox"
+                    class="btn-check"
+                    id="btn-check-prevodovka2"
+                    autocomplete="off"
+                  />
+                  <label class="btn" for="btn-check-prevodovka2">
+                    Manuál
+                  </label>
+                </div>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <p>
+                <a href="#"><i class="fa-solid fa-arrow-left-long"></i></a>
+                Parametrům odpovídá 354 vozů
+              </p>
+              <div class="modal-footer-buttons d-flex align-items-center">
+                <div class="skip-btn outline-btn">
+                  <a href="#">Přeskočit</a>
+                </div>
+                <div class="continue-btn fill-btn">
+                  <a href="#">Pokračovat</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Najezd modal -->
+
+      <!-- Button trigger modal -->
+      <button
+        type="button"
+        class="btn btn-success"
+        data-bs-toggle="modal"
+        data-bs-target="#najezdModal"
+      >
+        Najezd Modal
+      </button>
+
+      <!-- Modal -->
+      <div
+        class="modal fade"
+        id="najezdModal"
+        tabindex="-1"
+        aria-labelledby="najezdModalLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <div class="close-btn">
+              <button data-bs-dismiss="modal">
+                <i class="fa-solid fa-times"></i>
+              </button>
+            </div>
+            <div class="modal-body">
+              <div class="modal-top text-center">
+                <h3 class="headline-4">
+                  <span>4/6</span> Kolik chcete měsíčněmaximálně platit Kč?
+                </h3>
+              </div>
+              <div class="modal-container palivo-modal-container">
+                <div class="option-select-btn">
+                  <input
+                    type="checkbox"
+                    class="btn-check"
+                    id="btn-check-najezd1"
+                    autocomplete="off"
+                  />
+                  <label class="btn" for="btn-check-najezd1">
+                    do 5 000 Kč
+                  </label>
+                </div>
+                <div class="option-select-btn">
+                  <input
+                    type="checkbox"
+                    class="btn-check"
+                    id="btn-check-najezd2"
+                    autocomplete="off"
+                  />
+                  <label class="btn" for="btn-check-najezd2">
+                    5–10 000 Kč
+                  </label>
+                </div>
+                <div class="option-select-btn">
+                  <input
+                    type="checkbox"
+                    class="btn-check"
+                    id="btn-check-najezd3"
+                    autocomplete="off"
+                  />
+                  <label class="btn" for="btn-check-najezd3">
+                    10–15 000 Kč
+                  </label>
+                </div>
+                <div class="option-select-btn">
+                  <input
+                    type="checkbox"
+                    class="btn-check"
+                    id="btn-check-najezd4"
+                    autocomplete="off"
+                  />
+                  <label class="btn" for="btn-check-najezd4">
+                    přes 15 000 Kč
+                  </label>
+                </div>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <p>
+                <a href="#"><i class="fa-solid fa-arrow-left-long"></i></a>
+                Parametrům odpovídá 354 vozů
+              </p>
+              <div class="modal-footer-buttons d-flex align-items-center">
+                <div class="skip-btn outline-btn">
+                  <a href="#">Přeskočit</a>
+                </div>
+                <div class="continue-btn fill-btn">
+                  <a href="#">Pokračovat</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Splatky modal -->
+
+      <!-- Button trigger modal -->
+      <button
+        type="button"
+        class="btn btn-warning"
+        data-bs-toggle="modal"
+        data-bs-target="#splatkyModal"
+      >
+        Splatky Modal
+      </button>
+
+      <!-- Modal -->
+      <div
+        class="modal fade"
+        id="splatkyModal"
+        tabindex="-1"
+        aria-labelledby="splatkyModalLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <div class="close-btn">
+              <button data-bs-dismiss="modal">
+                <i class="fa-solid fa-times"></i>
+              </button>
+            </div>
+            <div class="modal-body">
+              <div class="modal-top text-center">
+                <h3 class="headline-4">
+                  <span>5/6</span> Na jak dlouho chcete leasing?
+                </h3>
+                <p>Dobra splácení</p>
+              </div>
+              <div class="modal-container splatky-modal-container">
+                <div class="option-select-btn">
+                  <input
+                    type="checkbox"
+                    class="btn-check"
+                    id="btn-check-splatky1"
+                    autocomplete="off"
+                  />
+                  <label class="btn" for="btn-check-splatky1">
+                    Méně než rok
+                  </label>
+                </div>
+                <div class="option-select-btn">
+                  <input
+                    type="checkbox"
+                    class="btn-check"
+                    id="btn-check-splatky2"
+                    autocomplete="off"
+                  />
+                  <label class="btn" for="btn-check-splatky2"> 1 rok </label>
+                </div>
+                <div class="option-select-btn">
+                  <input
+                    type="checkbox"
+                    class="btn-check"
+                    id="btn-check-splatky3"
+                    autocomplete="off"
+                  />
+                  <label class="btn" for="btn-check-splatky3"> 2 roky </label>
+                </div>
+                <div class="option-select-btn">
+                  <input
+                    type="checkbox"
+                    class="btn-check"
+                    id="btn-check-splatky4"
+                    autocomplete="off"
+                  />
+                  <label class="btn" for="btn-check-splatky4"> 3 roky </label>
+                </div>
+                <div class="option-select-btn">
+                  <input
+                    type="checkbox"
+                    class="btn-check"
+                    id="btn-check-splatky5"
+                    autocomplete="off"
+                  />
+                  <label class="btn" for="btn-check-splatky5"> 4 roky </label>
+                </div>
+                <div class="option-select-btn">
+                  <input
+                    type="checkbox"
+                    class="btn-check"
+                    id="btn-check-splatky6"
+                    autocomplete="off"
+                  />
+                  <label class="btn" for="btn-check-splatky6"> 5 let </label>
+                </div>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <p>
+                <a href="#"><i class="fa-solid fa-arrow-left-long"></i></a>
+                Parametrům odpovídá 354 vozů
+              </p>
+              <div class="modal-footer-buttons d-flex align-items-center">
+                <div class="skip-btn outline-btn">
+                  <a href="#">Přeskočit</a>
+                </div>
+                <div class="continue-btn fill-btn">
+                  <a href="#">Pokračovat</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Najezd modal -->
+
+      <!-- Button trigger modal -->
+      <button
+        type="button"
+        class="btn btn-danger"
+        data-bs-toggle="modal"
+        data-bs-target="#6Modal"
+      >
+        Najezd Modal
+      </button>
+
+      <!-- Modal -->
+      <div
+        class="modal fade"
+        id="6Modal"
+        tabindex="-1"
+        aria-labelledby="6ModalLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <div class="close-btn">
+              <button data-bs-dismiss="modal">
+                <i class="fa-solid fa-times"></i>
+              </button>
+            </div>
+            <div class="modal-body">
+              <div class="modal-top text-center">
+                <h3 class="headline-4">
+                  <span>6/6</span> Kolik km ročně najedete?
+                </h3>
+                <p>Maximální roční nájezd</p>
+              </div>
+              <div class="modal-container splatky-modal-container">
+                <div class="option-select-btn">
+                  <input
+                    type="checkbox"
+                    class="btn-check"
+                    id="btn-check-6.1"
+                    autocomplete="off"
+                  />
+                  <label class="btn" for="btn-check-6.1"> 5 000 km </label>
+                </div>
+                <div class="option-select-btn">
+                  <input
+                    type="checkbox"
+                    class="btn-check"
+                    id="btn-check-6.2"
+                    autocomplete="off"
+                  />
+                  <label class="btn" for="btn-check-6.2"> 10 000 km </label>
+                </div>
+                <div class="option-select-btn">
+                  <input
+                    type="checkbox"
+                    class="btn-check"
+                    id="btn-check-6.3"
+                    autocomplete="off"
+                  />
+                  <label class="btn" for="btn-check-6.3"> 15 000 km </label>
+                </div>
+                <div class="option-select-btn">
+                  <input
+                    type="checkbox"
+                    class="btn-check"
+                    id="btn-check-6.4"
+                    autocomplete="off"
+                  />
+                  <label class="btn" for="btn-check-6.4"> 20 000 km </label>
+                </div>
+                <div class="option-select-btn">
+                  <input
+                    type="checkbox"
+                    class="btn-check"
+                    id="btn-check-6.5"
+                    autocomplete="off"
+                  />
+                  <label class="btn" for="btn-check-6.5"> 30 000 km </label>
+                </div>
+                <div class="option-select-btn">
+                  <input
+                    type="checkbox"
+                    class="btn-check"
+                    id="btn-check-6.6"
+                    autocomplete="off"
+                  />
+                  <label class="btn" for="btn-check-6.6"> 30 000+ km </label>
+                </div>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <p>
+                <a href="#"><i class="fa-solid fa-arrow-left-long"></i></a>
+              </p>
+              <div class="modal-footer-buttons d-flex align-items-center">
+                <div class="skip-btn outline-btn">
+                  <a href="#">Přeskočit</a>
+                </div>
+                <div class="continue-btn fill-btn">
+                  <a href="#">Zobrazit 57 vozů</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modals Section HTML End -->
+
+    <!-- Footer Part HTML Start -->
+
+    <footer id="Footer">
+      <div class="footer-wrapper">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="footer-about">
+                <a href="#">Operák na klik</a>
+                <ul class="pt-4">
+                  <li>
+                    <a href="#">Operativní leasingy.</a>
+                  </li>
+                  <li>
+                    <a href="#">Všechny.</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="footer-menu-container d-none d-md-flex">
+                <div class="footer-menu">
+                  <h6>O nás</h6>
+                  <ul>
+                    <li><a href="#">O nás</a></li>
+                    <li><a href="#">Jak to funguje</a></li>
+                    <li><a href="#">Pro media</a></li>
+                    <li><a href="#">Kariéra</a></li>
+                  </ul>
+                </div>
+                <div class="footer-menu">
+                  <h6>Info</h6>
+                  <ul>
+                    <li><a href="#">Obchodní podmínky</a></li>
+                    <li><a href="#">Partneři</a></li>
+                    <li><a href="#">Pomoc</a></li>
+                  </ul>
+                </div>
+                <div class="footer-menu">
+                  <h6>Kontakt</h6>
+                  <ul>
+                    <li><a href="#">Email</a></li>
+                    <li><a href="#">Telefon</a></li>
+                    <li><a href="#">Další kontakty</a></li>
+                  </ul>
+                </div>
+              </div>
+
+              <!-- Mobile Footer Menu Accordion -->
+
+              <div
+                class="accordion footer-accordion accordion-flush d-md-none"
+                id="accordionFlushExample"
+              >
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#flush-collapseFooterOne"
+                      aria-expanded="false"
+                      aria-controls="flush-collapseFooterOne"
+                    >
+                      O nás
+                    </button>
+                  </h2>
+                  <div
+                    id="flush-collapseFooterOne"
+                    class="accordion-collapse collapse"
+                    data-bs-parent="#accordionFlushExample"
+                  >
+                    <div class="accordion-body">
+                      <div class="footer-menu">
+                        <ul>
+                          <li><a href="#">O nás</a></li>
+                          <li><a href="#">Jak to funguje</a></li>
+                          <li><a href="#">Pro media</a></li>
+                          <li><a href="#">Kariéra</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#flush-collapseFooterTwo"
+                      aria-expanded="false"
+                      aria-controls="flush-collapseFooterTwo"
+                    >
+                      Info
+                    </button>
+                  </h2>
+                  <div
+                    id="flush-collapseFooterTwo"
+                    class="accordion-collapse collapse"
+                    data-bs-parent="#accordionFlushExample"
+                  >
+                    <div class="accordion-body">
+                      <div class="footer-menu">
+                        <ul>
+                          <li><a href="#">Obchodní podmínky</a></li>
+                          <li><a href="#">Partneři</a></li>
+                          <li><a href="#">Pomoc</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#flush-collapseFooterThree"
+                      aria-expanded="false"
+                      aria-controls="flush-collapseFooterThree"
+                    >
+                      Kontakt
+                    </button>
+                  </h2>
+                  <div
+                    id="flush-collapseFooterThree"
+                    class="accordion-collapse collapse"
+                    data-bs-parent="#accordionFlushExample"
+                  >
+                    <div class="accordion-body">
+                      <div class="footer-menu">
+                        <ul>
+                          <li><a href="#">Email</a></li>
+                          <li><a href="#">Telefon</a></li>
+                          <li><a href="#">Další kontakty</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <hr />
+          <div class="footer-bottom">
+            <div
+              class="d-lg-flex justify-content-center justify-content-lg-between align-items-center"
+            >
+              <div class="footer-copyright">
+                <p>Copyright © 2021 Robin & Vítek</p>
+              </div>
+              <div class="cookies">
+                <h6>Cookies, GDPR apod <a href="#">Accept</a></h6>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Footer Part HTML End -->
+
+    <!-- Bootstrap JavaScript -->
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Custom JavaScript -->
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>

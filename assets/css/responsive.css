@@ -235,3 +235,78 @@
     padding: 30px 0 40px;
   }
 }
+
+/* ===========***===========
+Modal Responsive CSS
+===========***=========== */
+
+@media (max-width: 900px) {
+  .modal-dialog {
+    padding: 0 10px;
+  }
+
+  .close-btn button {
+    top: -50px;
+    right: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .modal-dialog {
+    padding: 0 10px;
+    margin: 0;
+  }
+
+  .close-btn button {
+    top: -50px;
+    right: 0;
+  }
+
+  .modal-content {
+    padding: 35px 15px;
+  }
+
+  .modal-container {
+    flex-direction: column;
+    gap: 24px;
+    padding: 30px 0;
+  }
+
+  .karoseri-modal-container {
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 20px;
+    column-gap: 16px;
+  }
+
+  .splatky-modal-container {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 24px;
+  }
+
+  .karoseri-modal-container .cars-body-card label,
+  .karoseri-modal-container .cars-body-card label:hover {
+    padding: 10px;
+  }
+
+  .option-select-btn label,
+  .option-select-btn label:hover {
+    padding: 16px 0 !important;
+  }
+
+  .karoseri-modal-container .cars-body-card h6 {
+    padding-top: 0;
+  }
+
+  .modal-footer p i {
+    display: none;
+  }
+
+  .modal-footer {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .modal-footer p {
+    padding-bottom: 25px;
+  }
+}
